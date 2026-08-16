@@ -10,9 +10,6 @@
   "YESHUNGUANG-AGENT.title": "代理人",
   "YESHUNGUANG-AGENT.description": "所有玩家的负面效果减少{Count:diff()}层。",
 
-  "YESHUNGUANG-SENIOR_SISTER_IS_HERE.title": "师姐在此",
-  "YESHUNGUANG-SENIOR_SISTER_IS_HERE.description": "所有玩家获得{EtherVeil:diff()}层[gold]以太帷幕[/gold]。",
-
 
   "YESHUNGUANG-BEARER.title": "载物",
   "YESHUNGUANG-BEARER.description": "[gold]消耗[/gold]手牌中能量消耗小于等于0的牌和状态牌。\n每[gold]消耗[/gold]1张牌，获得{QingmingSwordForce:diff()}层[gold]青溟剑势[/gold]，抽{Cards:diff()}张牌。",
@@ -70,7 +67,7 @@
   "YESHUNGUANG-IF_I_COULD_BECOME_LIGHT.title": "若能化作光芒",
   "YESHUNGUANG-IF_I_COULD_BECOME_LIGHT.description": "抽{Cards:diff()}张牌。\n消耗1层[gold]青溟剑势[/gold]：多抽{Extra:diff()}张牌。",
   "YESHUNGUANG-ILLUMINATING_DARKNESS.title": "照影",
-  "YESHUNGUANG-ILLUMINATING_DARKNESS.description": "对所有敌人造成{Damage:diff()}点伤害。\n若[gold]青溟剑势[/gold]已满：获得{EnlightenedMind:diff()}层[pink]明心境[/pink]。",
+  "YESHUNGUANG-ILLUMINATING_DARKNESS.description": "对所有敌人造成{Damage:diff()}点伤害。\n若[gold]青溟剑势[/gold]≥6：获得{EnlightenedMind:diff()}层[pink]明心境[/pink]。",
   "YESHUNGUANG-I_AM_YE_SHUNGUANG.title": "名为叶瞬光",
   "YESHUNGUANG-I_AM_YE_SHUNGUANG.description": "结束[pink]明心境[/pink]状态。\n获得{Block:diff()}[gold]格挡[/gold]。\n抽满手牌。",
 
@@ -86,11 +83,11 @@
   "YESHUNGUANG-LIGHT_YEAR_PHENOMENON.description": "给[gold]手牌[/gold]中的[gold]飞剑[/gold]和[gold]打击[/gold]牌添加1[gold]重放[/gold]。",
 
   "YESHUNGUANG-LOSS_OF_ALL_FIVE_SENSES.title": "五感尽失",
-  "YESHUNGUANG-LOSS_OF_ALL_FIVE_SENSES.description": "[gold]消耗[/gold]任意张[gold]手牌[/gold]，每张获得{QingmingSwordForce:diff()}层[gold]青溟剑势[/gold]。\n若[gold]青溟剑势[/gold]已满：获得1层[pink]明心境[/pink]。",
+  "YESHUNGUANG-LOSS_OF_ALL_FIVE_SENSES.description": "[gold]消耗[/gold]任意张[gold]手牌[/gold]，每张获得{QingmingSwordForce:diff()}层[gold]青溟剑势[/gold]。\n若[gold]青溟剑势[/gold]≥6：获得1层[pink]明心境[/pink]。",
   "YESHUNGUANG-LOSS_OF_ALL_FIVE_SENSES.selectionScreenPrompt": "选择任意张牌[gold]消耗[/gold]，从而获得[gold]青溟剑势[/gold]。",
 
   "YESHUNGUANG-MIRACLE_OF_LIFE.title": "生命的奇迹",
-  "YESHUNGUANG-MIRACLE_OF_LIFE.description": "下回合获得{NextBlock:diff()}点[gold]格挡[/gold]。\n若[gold]青溟剑势[/gold]已满：获得2层[pink]明心境[/pink]。",
+  "YESHUNGUANG-MIRACLE_OF_LIFE.description": "下回合获得{NextBlock:diff()}点[gold]格挡[/gold]。\n若[gold]青溟剑势[/gold]≥6：获得2层[pink]明心境[/pink]。",
 
   "YESHUNGUANG-OSMANTHUS_CAKE.title": "桂花糕",
   "YESHUNGUANG-OSMANTHUS_CAKE.description": "将[gold]青溟剑势[/gold]转化为能量。",
@@ -122,7 +119,8 @@
   "YESHUNGUANG-SUPPORT_GUARD.title": "援守",
   "YESHUNGUANG-SUPPORT_GUARD.description": "获得{Block:diff()}点[gold]格挡[/gold]。\n将[gold]弃牌堆[/gold]中的1张牌加入抽牌堆。",
   "YESHUNGUANG-SUPPORT_GUARD.selectionScreenPrompt": "选择一张[gold]伙伴[/gold]牌加放入[gold]抽牌堆[/gold]。",
-
+  "YESHUNGUANG-SENIOR_SISTER_IS_HERE.title": "师姐在此",
+  "YESHUNGUANG-SENIOR_SISTER_IS_HERE.description": "所有玩家获得{EtherVeil:diff()}层[gold]以太帷幕[/gold]。",
   "YESHUNGUANG-SWALLOW_STRIKE.title": "燕袭",
   "YESHUNGUANG-SWALLOW_STRIKE.description": "造成{Damage:diff()}点伤害。\n如果上一张牌是[gold]技能牌[/gold]，获得{VigorPower:diff()}层[gold]活力[/gold]。",
   "YESHUNGUANG-SWIFTEDGE.title": "快剑",
@@ -183,7 +181,7 @@
   "YESHUNGUANG-VOID_HUNTER_QINGMING_ARBITER.title": "虚狩·青溟司命",
   "YESHUNGUANG-VOID_HUNTER_QINGMING_ARBITER.description": "耗能为[blue]X[/blue]的牌的效果数值增加[blue]{Count:diff()}[/blue]点。\n回合开始时，为所有[red]敌人[/red]施加{EnemyBlock:diff()}点[gold]格挡[/gold]。",
   "YESHUNGUANG-VERDICT.title": "决裁",
-  "YESHUNGUANG-VERDICT.description": "获得{EtherVeil:diff()}层[gold]以太帷幕[/gold]、{Force:diff()}层[gold]青溟剑势[/gold]。\n如果[gold]青溟剑势[/gold]已满：获得{Mind:diff()}层[pink]明心境[/pink]。",
+  "YESHUNGUANG-VERDICT.description": "获得{EtherVeil:diff()}层[gold]以太帷幕[/gold]、{Force:diff()}层[gold]青溟剑势[/gold]。\n如果[gold]青溟剑势[/gold]≥6：获得{Mind:diff()}层[pink]明心境[/pink]。",
 
   "YESHUNGUANG-WHEN_I_RETURN.title": "归去时",
   "YESHUNGUANG-WHEN_I_RETURN.description": "获得{Block:diff()}点[gold]格挡[/gold]。\n本回合受到[gold]脆弱[/gold]敌人的伤害减少{Decrease}点",
