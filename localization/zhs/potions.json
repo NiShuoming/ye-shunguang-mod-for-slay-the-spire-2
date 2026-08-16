@@ -1,0 +1,11 @@
+{
+  "SWORD_FORCE_GOURD.title": "剑势葫芦",
+  "SWORD_FORCE_GOURD.description": "获得[blue]{QingmingSwordForce}[/blue]层[gold]青溟剑势[/gold]。",
+
+  "OSMANTHUS_CANDY.title": "桂花糖",
+  "OSMANTHUS_CANDY.description": "从[gold]消耗堆[/gold]中选择一张牌加入[gold]手牌[/gold]。",
+  "OSMANTHUS_CANDY.selectionScreenPrompt": "选择一张牌放入你的手牌。",
+
+  "APPRENTICESHIP_TEA.title": "拜师茶",
+  "APPRENTICESHIP_TEA.description": "将一张[gold]仪玄[/gold]加入[gold]手牌[/gold]。"
+}

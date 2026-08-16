@@ -1,0 +1,92 @@
+{
+  "A_THOUSAND_FIRST_MEETINGS_POWER.title": "A Thousand First Meetings Power",
+  "A_THOUSAND_FIRST_MEETINGS_POWER.description": "Whenever you break an enemy's [gold]Block[/gold], play 1 [gold]Partner[/gold] card from your [gold]Draw Pile[/gold].",
+  "A_THOUSAND_FIRST_MEETINGS_POWER.smartDescription": "Whenever you break an enemy's [gold]Block[/gold], play {Amount} [gold]Partner[/gold] card from your [gold]Draw Pile[/gold].",
+
+  "BREAK_THROUGH_POWER.title": "Break Through",
+  "BREAK_THROUGH_POWER.description": "Whenever you break an enemy's [gold]Block[/gold], draw cards.",
+  "BREAK_THROUGH_POWER.smartDescription": "Whenever you break an enemy's [gold]Block[/gold], draw {Amount} cards.",
+
+
+  "CULUMINATION_POWER.title": "Culumination",
+  "CULUMINATION_POWER.description": "The consumption of [gold]Qingming Sword Force[/gold] is reduced.",
+  "CULUMINATION_POWER.smartDescription": "The consumption of [gold]Qingming Sword Force[/gold] is reduced by {Amount}.",
+
+  "ENLIGHTENED_MIND.title": "Enlightened Mind",
+  "ENLIGHTENED_MIND.description": "Take [blue]25%[/blue] less damage.\nRemove [gold]Enlightened Mind[/gold] when energy is 0.",
+  "ENLIGHTENED_MIND.smartDescription": "Take [blue]{DamageDecrease}%[/blue] less damage.\nRemove [gold]Enlightened Mind[/gold] when energy is 0.",
+
+
+  "FROSTED_BLADE_POWER.title": "Frosted Blade",
+  "FROSTED_BLADE_POWER.description": "Whenever the [gold]Enlightened Mind[/gold] is removed, gain energy.",
+  "FROSTED_BLADE_POWER.smartDescription": "Whenever the [gold]Enlightened Mind[/gold] is removed, gain {Amount:energyIcons()}.",
+
+
+  "FUTURE_DREAMS_POWER.title": "Future Dreams Power",
+  "FUTURE_DREAMS_POWER.description": "At the start of the your turn, gain [gold]Qingming Sword Force[/gold].",
+  "FUTURE_DREAMS_POWER.smartDescription": "At the start of the your turn, gain {Amount} [gold]Qingming Sword Force[/gold].",
+
+  "HALO_OF_FLOWING_LIGHT_POWER.title": "Halo Of Flowing Light Power",
+  "HALO_OF_FLOWING_LIGHT_POWER.description": "Whenever you have [gold]Enlightened Mind[/gold], at the start of the your turn, gain [gold]Vigor[/gold].",
+  "HALO_OF_FLOWING_LIGHT_POWER.smartDescription": "Whenever you have [gold]Enlightened Mind[/gold], at the start of the your turn, gain {Amount} [gold]Vigor[/gold].",
+
+
+  "QINGMING_SWORD_FORCE.title": "Qingming Sword Force",
+  "QINGMING_SWORD_FORCE.description": "When you gain [gold]Enlightened Mind[/gold], this power turns into Energy.",
+  "QINGMING_SWORD_FORCE.smartDescription": "When you gain [gold]Enlightened Mind[/gold], this power turns into Energy.",
+
+  "SWORD_RIDING.title": "Sword Riding",
+  "SWORD_RIDING.description": "Take flight and take [gold]35%[/gold] less damage.",
+  "SWORD_RIDING.smartDescription": "Take flight and take [gold]{DamageDecrease}%[/gold] less damage.",
+
+  "SHADOWTRACE_FLIGHT_POWER.title": "Shadowtrace Flight",
+  "SHADOWTRACE_FLIGHT_POWER.description": "Whenever you gain [gold]Ether Veil[/gold], gain [gold]Qingming Sword Force[/gold].",
+  "SHADOWTRACE_FLIGHT_POWER.smartDescription": "Whenever you gain [gold]Ether Veil[/gold], gain {Amount} [gold]Qingming Sword Force[/gold].",
+
+  "SWORD_WIND_POWER.title": "Sword Wind",
+  "SWORD_WIND_POWER.description": "Whenever you play a card with [gold]Sunderlight[/gold], deal damage to ALL enemies and gain [gold]Block[/gold].",
+  "SWORD_WIND_POWER.smartDescription": "Whenever you play a card with [gold]Sunderlight[/gold], deal {Amount} damage to ALL enemies and gain {Amount} [gold]Block[/gold].",
+
+  "TOUCH_OF_DAWNLIGHT_POWER.title": "Touch Of Dawnlight",
+  "TOUCH_OF_DAWNLIGHT_POWER.description": "Whenever you have [gold]Enlightened Mind[/gold], [gold]Memory[/gold] cards won't gain [gold]Exhaust[/gold], [gold]Partner[/gold] cards gain [blue]1[/blue] [gold]Reply[/gold].",
+  "TOUCH_OF_DAWNLIGHT_POWER.smartDescription": "Whenever you have [gold]Enlightened Mind[/gold], [gold]Memory[/gold] cards won't gain [gold]Exhaust[/gold], [gold]Partner[/gold] cards gain [blue]1[/blue] [gold]Reply[/gold].",
+
+  "THE_MASTER_OF_QINGMING_SWORD_POWER.title": "The Master Of Qingming Sword",
+  "THE_MASTER_OF_QINGMING_SWORD_POWER.description": "Whenever you [gold]Exhaust[/gold] a card, gain [gold]Strength[/gold] this turn.",
+  "THE_MASTER_OF_QINGMING_SWORD_POWER.smartDescription": "Whenever you [gold]Exhaust[/gold] a card, gain {Amount} [gold]Strength[/gold] this turn.",
+
+  "THE_SWORDBEARER_WHO_SUNDERS_THE_SKY_POWER.title": "The Swordbearer Who Sunders The Sky",
+  "THE_SWORDBEARER_WHO_SUNDERS_THE_SKY_POWER.description": "Whenever you draw a [gold]Partner[/gold] card, gain [gold]Ether Veil[/gold] and [gold]Block[/gold].",
+  "THE_SWORDBEARER_WHO_SUNDERS_THE_SKY_POWER.smartDescription": "Whenever you draw a [gold]Partner[/gold] card, gain {Amount} [gold]Ether Veil[/gold] and {Amount} [gold]Block[/gold].",
+
+  "UNIFICATION_POWER.title": "Unification",
+  "UNIFICATION_POWER.description": "Receive [blue]35%[/blue] more damage and double debuffs from [gold]Partner[/gold] cards.",
+  "UNIFICATION_POWER.smartDescription": "Receive [blue]35%[/blue] more damage and double debuffs from [gold]Partner[/gold] cards.",
+
+  "VOID_HUNTER_QINGMING_ARBITER_POWER.title": "Void Hunter",
+  "VOID_HUNTER_QINGMING_ARBITER_POWER.description": "The effects of your cost [blue]X[/blue] cards are increased.",
+  "VOID_HUNTER_QINGMING_ARBITER_POWER.smartDescription": "The effects of your cost [blue]X[/blue] cards are increased by [blue]{Increase}[/blue].",
+
+
+  "VOID_HUNTER_QINGMING_ARBITER_POWER2.title": "Qingming Arbiter",
+  "VOID_HUNTER_QINGMING_ARBITER_POWER2.description": "At the start of your turn, apply [gold]Block[/gold] to ALL [red]enemies[/red].",
+  "VOID_HUNTER_QINGMING_ARBITER_POWER2.smartDescription": "At the start of your turn, apply [red]{Amount}[/red] [gold]Block[/gold] to ALL [red]enemies[/red].",
+
+  "WHEN_I_RETURN_POWER.title": "When I Return",
+  "WHEN_I_RETURN_POWER.description": "Damage taken from [gold]Frail[/gold] enemies is reduced this turn.",
+  "WHEN_I_RETURN_POWER.smartDescription": "Damage taken from [gold]Frail[/gold] enemies is reduced by {Amount} this turn.",
+
+
+  "WHEN_MEMORIES_DRIFT_BY_POWER.title": "When Memories Drift By",
+  "WHEN_MEMORIES_DRIFT_BY_POWER.description": "Whenever you consume 1 [gold]Qingming Sword Force[/gold], gain block.",
+  "WHEN_MEMORIES_DRIFT_BY_POWER.smartDescription": "Whenever you consume 1 [gold]Qingming Sword Force[/gold], gain {Amount} block.",
+
+  "WHEN_OLD_DREAMS_RESURFACE_POWER.title": "When Old Dreams Resurface",
+  "WHEN_OLD_DREAMS_RESURFACE_POWER.description": "Whenever you [gold]Exhaust[/gold] a card for the first time each turn, add a copy into your [gold]Discard Pile[/gold].",
+  "WHEN_OLD_DREAMS_RESURFACE_POWER.smartDescription": "Whenever you [gold]Exhaust[/gold] a card for the first time each turn, add a copy into your [gold]Discard Pile[/gold].",
+
+  "WHITE_HAIR_FORM_POWER.title": "White Hair Form",
+  "WHITE_HAIR_FORM_POWER.description": "[gold]Enlightened Mind[/gold] is no longer [gold]Removed[/gold] when Energy is 0.",
+  "WHITE_HAIR_FORM_POWER.smartDescription": "[gold]Enlightened Mind[/gold] is no longer [gold]Removed[/gold] when Energy is 0."
+
+}

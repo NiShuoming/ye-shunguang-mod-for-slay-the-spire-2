@@ -1,0 +1,11 @@
+{
+  "SWORD_FORCE_GOURD.title": "Sword Force Gourd",
+  "SWORD_FORCE_GOURD.description": "Gain [blue]{QingmingSwordForce}[/blue] [gold]Qingming Sword Force[/gold].",
+
+  "OSMANTHUS_CANDY.title": "Osmanthus Candy",
+  "OSMANTHUS_CANDY.description": "Choose a card from [gold]Exhaust Pile[/gold] into your [gold]Hand[/gold].",
+  "OSMANTHUS_CANDY.selectionScreenPrompt": "Choose a card into your [gold]Hand[/gold].",
+
+  "APPRENTICESHIP_TEA.title": "Apprenticeship Tea",
+  "APPRENTICESHIP_TEA.description": "Add a [gold]Yixuan[/gold] into your [gold]Hand[/gold]."
+}

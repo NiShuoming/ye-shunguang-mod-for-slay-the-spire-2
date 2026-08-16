@@ -1,0 +1,39 @@
+{
+  "YESHUNGUANG-BURNING_CLARTITY.title": "Burning Clartity",
+  "YESHUNGUANG-BURNING_CLARTITY.description": "Whenever you have no [gold]Enlightened Mind[/gold], every time you play [blue]{Count}[/blue] attack cards, gain [blue]{Force}[/blue] [gold]Qingming Sword Force[/gold].",
+  "YESHUNGUANG-BURNING_CLARTITY.flavor": "Core Passive Effect of Ye Shunguang.",
+
+  "YESHUNGUANG-CASE_FULL_OF_LIGHT.title": "Case Full Of Light",
+  "YESHUNGUANG-CASE_FULL_OF_LIGHT.description": "Whenever you have no [gold]Enlightened Mind[/gold], every time you play [blue]{Count}[/blue] attack or skill cards, gain [blue]{Force}[/blue] [gold]Qingming Sword Force[/gold].",
+  "YESHUNGUANG-CASE_FULL_OF_LIGHT.flavor": "Used to boost the acquisition rate of [gold]Qingming Sword Force[/gold].",
+
+  "YESHUNGUANG-DREAMBOUND_SELF.title": "Dreambound Self",
+  "YESHUNGUANG-DREAMBOUND_SELF.description": "Whenever you gain [gold]Enlightened Mind[/gold], gain [blue]{StrengthPower}[/blue] [gold]Strength[/gold].",
+  "YESHUNGUANG-DREAMBOUND_SELF.flavor": "Countless times, in the dead of night, she finds herself returning to that day...",
+
+  "YESHUNGUANG-LANTERN_WISH.title": "Lantern Wish",
+  "YESHUNGUANG-LANTERN_WISH.description": "Whenever the [gold]Enlightened Mind[/gold] is removed, play a random card in [gold]Hand[/gold].",
+  "YESHUNGUANG-LANTERN_WISH.flavor": "\"I want to be one light among countless firefiles.\"\n\"The sun will rise. No matter how long the night lasts, dawn always comes.\"",
+
+  "YESHUNGUANG-SWORDSWOMAN.title": "Swordswoman",
+  "YESHUNGUANG-SWORDSWOMAN.description": "At the start of the combate, add a [gold]Soaring Light[/gold] into your [gold]Hand[/gold]",
+  "YESHUNGUANG-SWORDSWOMAN.flavor": "\"What is someone who wides a blade?\"\n\"Nothing more than...the courage to press forward without hesitation, and the resolve to cut through anything.\"",
+
+  "YESHUNGUANG-TOGETHER_INTO_THE_DUST.title": "Together Into The Dust",
+  "YESHUNGUANG-TOGETHER_INTO_THE_DUST.description": "Whenever you gain [gold]Ether Veil[/gold], apply [blue]{VulnerablePower}[/blue] [gold]Vulnerable[/gold] to ALL enemies.",
+  "YESHUNGUANG-TOGETHER_INTO_THE_DUST.flavor": "\"I understand.\"\n\"I will live my whole life alongside [red]Loss[/red].\"",
+
+  "YESHUNGUANG-GUIDING_GLIMMER.title": "Guiding Glimmer",
+  "YESHUNGUANG-GUIDING_GLIMMER.description": "The cost of the [gold]Partner[/gold] card is reduced by [blue]1[/blue].",
+  "YESHUNGUANG-GUIDING_GLIMMER.flavor": "\"My brother, Shifu, everyone at Suibian Temple... and you.\"\n\"I know you'll all keep waiting for me.\"",
+
+  "YESHUNGUANG-LIGHT_SHADOW.title": "Light & Shadow",
+  "YESHUNGUANG-LIGHT_SHADOW.description": "Increase the cap of [gold]Qingming Sword Force[/gold] by [blue]{Max}[/blue].\nAt the start of the combate, gain [blue]{Max}[/blue] [gold]Qingming Sword Force[/gold].",
+  "YESHUNGUANG-LIGHT_SHADOW.flavor": "In endless solitude and ever-present fear, [gold]another self[/gold] quietly came into being.",
+
+  "YESHUNGUANG-CLANG_OF_JADE.title": "Clang Of Jade",
+  "YESHUNGUANG-CLANG_OF_JADE.description": "Whenever you gain [gold]Enlightened Mind[/gold], gain [blue]1[/blue] more.",
+  "YESHUNGUANG-CLANG_OF_JADE.flavor": "One of Ye Shunguang's Tactical Prism, can only be bought in stores."
+
+
+}

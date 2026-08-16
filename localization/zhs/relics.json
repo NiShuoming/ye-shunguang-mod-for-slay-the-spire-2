@@ -1,0 +1,39 @@
+{
+  "YESHUNGUANG-BURNING_CLARTITY.title": "照破无明",
+  "YESHUNGUANG-BURNING_CLARTITY.description": "在非[gold]明心境[/gold]状态下，每打出[blue]{Count}[/blue]次[gold]攻击牌[/gold]，获得[blue]{Force}[/blue]层[gold]青溟剑势[/gold]。",
+  "YESHUNGUANG-BURNING_CLARTITY.flavor": "叶瞬光的核心被动效果。",
+
+  "YESHUNGUANG-CASE_FULL_OF_LIGHT.title": "匣珥瞬光",
+  "YESHUNGUANG-CASE_FULL_OF_LIGHT.description": "在非[gold]明心境[/gold]状态下，每打出[blue]{Count}[/blue]次[gold]攻击牌、技能牌[/gold]，获得[blue]{Force}[/blue]层[gold]青溟剑势[/gold]。",
+  "YESHUNGUANG-CASE_FULL_OF_LIGHT.flavor": "叶瞬光的战术棱镜之一，用于提升[gold]青溟剑势[/gold]的获取效率。",
+
+  "YESHUNGUANG-DREAMBOUND_SELF.title": "梦中身",
+  "YESHUNGUANG-DREAMBOUND_SELF.description": "获得[gold]明心境[/gold]时，获得[blue]{StrengthPower}[/blue]层[gold]力量[/gold]。",
+  "YESHUNGUANG-DREAMBOUND_SELF.flavor": "无数次午夜梦回，她都会想起那一天……",
+
+  "YESHUNGUANG-LANTERN_WISH.title": "明灯愿",
+  "YESHUNGUANG-LANTERN_WISH.description": "[gold]明心境[/gold]结束时，打出随机一张[gold]手牌[/gold]。",
+  "YESHUNGUANG-LANTERN_WISH.flavor": "\"我想成为万千萤火中的一盏\"\n\"天总会亮的。无论黑夜多么漫长，白昼终将到来。\"",
+
+  "YESHUNGUANG-SWORDSWOMAN.title": "剑客行",
+  "YESHUNGUANG-SWORDSWOMAN.description": "战斗开始时，向[gold]手牌[/gold]中添加一张[gold]飞光[/gold]。",
+  "YESHUNGUANG-SWORDSWOMAN.flavor": "\"剑客是什么？\"\n\"不过是……一往无前的勇气，与斩开一切的决心。\"",
+
+  "YESHUNGUANG-TOGETHER_INTO_THE_DUST.title": "共黯尘",
+  "YESHUNGUANG-TOGETHER_INTO_THE_DUST.description": "获得[gold]以太帷幕[/gold]时，为所有敌人添加[blue]{VulnerablePower}[/blue]层[gold]易伤[/gold]。",
+  "YESHUNGUANG-TOGETHER_INTO_THE_DUST.flavor": "\"我知道的。\"\n\"我的一生都会与[gold]失去[/gold]共存。\"",
+
+  "YESHUNGUANG-GUIDING_GLIMMER.title": "微光引",
+  "YESHUNGUANG-GUIDING_GLIMMER.description": "[gold]伙伴[/gold]牌的费用减少[blue]1[/blue]点。",
+  "YESHUNGUANG-GUIDING_GLIMMER.flavor": "\"哥哥、师父、随便观的大家……还有你。\"\n\"我知道，你们会一直等着我。\"",
+
+  "YESHUNGUANG-LIGHT_SHADOW.title": "光与影",
+  "YESHUNGUANG-LIGHT_SHADOW.description": "[gold]青溟剑势[/gold]上限+[blue]{Max}[/blue]。\n战斗开始时获得[blue]{Max}[/blue][gold]青溟剑势[/gold]。",
+  "YESHUNGUANG-LIGHT_SHADOW.flavor": "在漫长无尽的寂寥与如影随形的恐惧中，[gold]另一个自己[/gold]悄然诞生。",
+
+  "YESHUNGUANG-CLANG_OF_JADE.title": "锵鸣琳琅",
+  "YESHUNGUANG-CLANG_OF_JADE.description": "获得[gold]明心境[/gold]时，多获得[blue]1[/blue]层。",
+  "YESHUNGUANG-CLANG_OF_JADE.flavor": "叶瞬光的战术棱镜之一，现在可以在商店买到。"
+
+
+}
