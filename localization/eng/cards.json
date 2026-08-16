@@ -73,7 +73,7 @@
   "YESHUNGUANG-IF_I_COULD_BECOME_LIGHT.title": "If I Could Become Light",
   "YESHUNGUANG-IF_I_COULD_BECOME_LIGHT.description": "Draw {Cards:diff()} cards.\nConsume 1 [gold]Qingming Sword Force[/gold]: Draw {Extra:diff()} additional card.",
   "YESHUNGUANG-ILLUMINATING_DARKNESS.title": "Illuminating Darkness",
-  "YESHUNGUANG-ILLUMINATING_DARKNESS.description": "Deal {Damage:diff()} damage to ALL enemies.\nIf [gold]Qingming Sowrd Force[/gold] is full: Gain {EnlightenedMind:diff()} [pink]Enlightened Mind[/pink].",
+  "YESHUNGUANG-ILLUMINATING_DARKNESS.description": "Deal {Damage:diff()} damage to ALL enemies.\nIf [gold]Qingming Sowrd Force[/gold] ≥ 6: Gain {EnlightenedMind:diff()} [pink]Enlightened Mind[/pink].",
   "YESHUNGUANG-I_AM_YE_SHUNGUANG.title": "I Am Ye Shunguang",
   "YESHUNGUANG-I_AM_YE_SHUNGUANG.description": "Remove [pink]Enlightened Mind[/pink].\nGain {Block:diff()} [gold]Block[/gold].\nDraw cards until your [gold]Hand[/gold] is full.",
 
@@ -89,11 +89,11 @@
   "YESHUNGUANG-LIGHT_YEAR_PHENOMENON.description": "Add 1 [gold]Replay[/gold] to [gold]Flying Sword[/gold] and [gold]Strike[/gold] cards in your [gold]Hand[/gold].",
 
   "YESHUNGUANG-LOSS_OF_ALL_FIVE_SENSES.title": "Loss Of All Five Senses",
-  "YESHUNGUANG-LOSS_OF_ALL_FIVE_SENSES.description": "Exhaust any number of cards in your [gold]Hand[/gold]. For each card, gain {QingmingSwordForce:diff()} [gold]Qingming Sword Force[/gold].\nIf [gold]Qingming Sword Force[/gold] is full: Gain 1 [pink]Enlightened Mind[/pink].",
+  "YESHUNGUANG-LOSS_OF_ALL_FIVE_SENSES.description": "Exhaust any number of cards in your [gold]Hand[/gold]. For each card, gain {QingmingSwordForce:diff()} [gold]Qingming Sword Force[/gold].\nIf [gold]Qingming Sword Force[/gold] ≥ 6: Gain 1 [pink]Enlightened Mind[/pink].",
   "YESHUNGUANG-LOSS_OF_ALL_FIVE_SENSES.selectionScreenPrompt": "Exhaust any number of cards in your [gold]Hand[/gold].",
 
   "YESHUNGUANG-MIRACLE_OF_LIFE.title": "Miracle Of Life",
-  "YESHUNGUANG-MIRACLE_OF_LIFE.description": "Gain {NextBlock:diff()} [gold]Block[/gold] next turn.\nIf [gold]Qingming Sword Force[/gold] is full: Gain 2 [gold]Enlightened Mind[/gold].",
+  "YESHUNGUANG-MIRACLE_OF_LIFE.description": "Gain {NextBlock:diff()} [gold]Block[/gold] next turn.\nIf [gold]Qingming Sword Force[/gold] ≥ 6: Gain 2 [gold]Enlightened Mind[/gold].",
 
   "YESHUNGUANG-OSMANTHUS_CAKE.title": "Osmanthus Cake",
   "YESHUNGUANG-OSMANTHUS_CAKE.description": "Turn [gold]Qingming Sword Force[/gold] into Energy.",
@@ -184,7 +184,7 @@
   "YESHUNGUANG-VOID_HUNTER_QINGMING_ARBITER.title": "Void Hunter·Qingming Arbiter",
   "YESHUNGUANG-VOID_HUNTER_QINGMING_ARBITER.description": "The effects of your cost [blue]X[/blue] cards are increased by [blue]{Count:diff()}[/blue].\nAt the start of your turn, apply {EnemyBlock:diff()} [gold]Block[/gold] to ALL [red]enemies[/red].",
   "YESHUNGUANG-VERDICT.title": "Verdict",
-  "YESHUNGUANG-VERDICT.description": "Gain {EtherVeil:diff()} [gold]EtherVeil[/gold] and {Force:diff()} [gold]Qingming Sword Force[/gold].\nIf [gold]Qingming Sword Force[/gold] is full: Gain {Mind:diff()} [pink]Enlightened[/pink].",
+  "YESHUNGUANG-VERDICT.description": "Gain {EtherVeil:diff()} [gold]EtherVeil[/gold] and {Force:diff()} [gold]Qingming Sword Force[/gold].\nIf [gold]Qingming Sword Force[/gold] ≥ 6: Gain {Mind:diff()} [pink]Enlightened[/pink].",
 
   "YESHUNGUANG-WHEN_I_RETURN.title": "When I Return",
   "YESHUNGUANG-WHEN_I_RETURN.description": "Gain {Block:diff()} [gold]Block[/gold].\nDamage taken from [gold]Frail[/gold] enemies is reduced by {Decrease:diff()} this turn.",
