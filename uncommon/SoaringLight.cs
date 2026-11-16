@@ -36,6 +36,8 @@ namespace YeShunguang
 
         protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
         {
+            VoiceManager.PlayAttackVoice(Owner.Creature.HasPower<EnlightenedMind>());
+
             int num = ZZZCmd.GetSecondEnergy(Owner).Energy2;
             await ZZZCmd.AddSecondEnergy(Owner, -num, Owner.Creature, this);
             num = Hook.ModifyXValue(CombatState, this, num);
@@ -43,8 +45,8 @@ namespace YeShunguang
                 WithHitCount(num + DynamicVars["Count"].IntValue).
                 FromCard(this, cardPlay).
                 TargetingAllOpponents(base.CombatState).
-                WithHitFx("vfx/vfx_attack_slash").
-                Execute(choiceContext);
+                WithHitFx("vfx/vfx_attack_slash", tmpSfx: "打击音效.mp3")
+                .Execute(choiceContext);
         }
 
         protected override void OnUpgrade()

@@ -15,14 +15,14 @@ using ZZZLib.Cmds;
 namespace YeShunguang
 {
     /// <summary>
-    /// 斩流光极 2 【记忆】对所有敌人造成13->17点伤害，若有，消耗2层【青溟剑势】获得6-8伤害 完成
+    /// 斩流光极 2 【记忆】对所有敌人造成13->17点伤害，若有，消耗2层【青溟剑势】获得7-9伤害 完成
     /// </summary>
     public class SunderlightMaximum : YeCardModel
     {
         public SunderlightMaximum() : base(2, CardType.Attack, CardRarity.Uncommon, TargetType.AllEnemies) { }
 
         protected override IEnumerable<DynamicVar> CanonicalVars =>
-            [new CalculationBaseVar(13m),new ExtraDamageVar(6m), new PowerVar<QingmingSwordForce>(2),
+            [new CalculationBaseVar(13m),new ExtraDamageVar(7m), new PowerVar<QingmingSwordForce>(2),
             new CalculatedDamageVar(ValueProp.Move).
             WithMultiplier((card, _) =>
             {
@@ -51,12 +51,14 @@ namespace YeShunguang
 
         protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
         {
+            VoiceManager.PlayAttackVoice(Owner.Creature.HasPower<EnlightenedMind>());
+
             int n = ZZZCmd.GetSecondEnergy(Owner).Energy2;
             if (n >= DynamicVars.Power<QingmingSwordForce>().IntValue)
             {
                 await DamageCmd.Attack(DynamicVars.CalculatedDamage)
                 .FromCard(this, cardPlay).TargetingAllOpponents(CombatState)
-                .WithHitFx("vfx/vfx_attack_slash")
+                .WithHitFx("vfx/vfx_attack_slash", tmpSfx: "打击音效.mp3")
                 .Execute(choiceContext);
 
                 await ZZZCmd.AddSecondEnergy(Owner, -DynamicVars.Power<QingmingSwordForce>().IntValue, Owner.Creature, this);
@@ -65,7 +67,7 @@ namespace YeShunguang
             {
                 await DamageCmd.Attack(DynamicVars.CalculationBase.BaseValue)
                 .FromCard(this, cardPlay).TargetingAllOpponents(CombatState)
-                .WithHitFx("vfx/vfx_attack_slash")
+                .WithHitFx("vfx/vfx_attack_slash", tmpSfx: "打击音效.mp3")
                 .Execute(choiceContext);
             }
         }

@@ -37,11 +37,12 @@ namespace YeShunguang
             ArgumentNullException.ThrowIfNull(cardPlay.Target, "cardPlay.Target");
             await PowerCmd.Apply<EtherVeil>(choiceContext, Owner.Creature,
                 DynamicVars.Power<EtherVeil>().BaseValue, Owner.Creature, this);
+            VoiceManager.PlayAttackVoice(Owner.Creature.HasPower<EnlightenedMind>());
 
             AttackCommand a = await DamageCmd.Attack(base.DynamicVars.Damage.BaseValue).FromCard(this, cardPlay).Targeting(cardPlay.Target)
-                .WithHitFx("vfx/vfx_attack_slash")
+                .WithHitFx("vfx/vfx_attack_slash", tmpSfx: "打击音效.mp3")
                 .Execute(choiceContext);
-            if(a.Results.Count(a => a.Any(b=>b.WasBlockBroken)) > 0)
+            if(a.Results.Any(a => a.Any(b => b.WasBlockBroken)))
             {
                 await PlayerCmd.GainEnergy(DynamicVars.Energy.IntValue, Owner);
                 await CardPileCmd.Draw(choiceContext,DynamicVars.Cards.IntValue
