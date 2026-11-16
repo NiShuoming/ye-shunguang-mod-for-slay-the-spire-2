@@ -45,10 +45,11 @@ namespace YeShunguang
             {
                 await CardCmd.Exhaust(choiceContext, c);
             }
+            VoiceManager.PlayAttackVoice(Owner.Creature.HasPower<EnlightenedMind>());
 
             await DamageCmd.Attack(base.DynamicVars.CalculatedDamage)
                 .FromCard(this, cardPlay).Targeting(cardPlay.Target)
-                .WithHitFx("vfx/vfx_attack_slash")
+                .WithHitFx("vfx/vfx_attack_slash", tmpSfx: "打击音效.mp3")
                 .Execute(choiceContext);
 
         }

@@ -43,7 +43,7 @@ namespace YeShunguang
                 Owner.Creature, this);
             await DamageCmd.Attack(DynamicVars.Damage.BaseValue)
                      .FromCard(this, cardPlay).TargetingAllOpponents(CombatState)
-                     .WithHitFx("vfx/vfx_attack_slash")
+                .WithHitFx("vfx/vfx_attack_slash", tmpSfx: "打击音效.mp3")
                      .Execute(choiceContext);
         }
 

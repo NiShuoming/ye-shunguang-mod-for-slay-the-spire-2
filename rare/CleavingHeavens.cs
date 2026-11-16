@@ -14,7 +14,7 @@ using ZZZLib.Cmds;
 namespace YeShunguang
 {
     /// <summary>
-    /// 斩妄开天 x 对随机敌人造成14-17点伤害x次，
+    /// 斩妄开天 x 对随机敌人造成15-18点伤害x次，
     /// 每有1层【青溟剑势】伤害-1 完成
     /// </summary>
     public class CleavingHeavens : YeCardModel
@@ -24,7 +24,7 @@ namespace YeShunguang
         protected override bool HasEnergyCostX => true;
 
         protected override IEnumerable<DynamicVar> CanonicalVars =>
-            [new CalculationBaseVar(14m),new ExtraDamageVar(-1),
+            [new CalculationBaseVar(15m),new ExtraDamageVar(-1),
             new CalculatedDamageVar(ValueProp.Move).
             WithMultiplier((card,_)=>(ZZZCmd.GetSecondEnergy(card.Owner).Energy2))];
 
@@ -33,11 +33,12 @@ namespace YeShunguang
 
         protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
         {
+            VoiceManager.PlayBigSkillVoice();
             int num = ResolveEnergyXValue();
             await DamageCmd.Attack(base.DynamicVars.CalculatedDamage)
                 .WithHitCount(num)
                 .FromCard(this,cardPlay).TargetingRandomOpponents(CombatState)
-                .WithHitFx("vfx/vfx_attack_slash")
+                .WithHitFx("vfx/vfx_attack_slash", tmpSfx: "打击音效.mp3")
                 .Execute(choiceContext);
         }
 

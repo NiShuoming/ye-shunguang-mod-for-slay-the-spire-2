@@ -36,6 +36,8 @@ namespace YeShunguang
 
         protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
         {
+            VoiceManager.PlayAttackVoice(Owner.Creature.HasPower<EnlightenedMind>());
+
             await PowerCmd.Apply<EnlightenedMind>(choiceContext, Owner.Creature, 
                 -Owner.Creature.GetPowerAmount<EnlightenedMind>(), Owner.Creature, this);
 
