@@ -13,8 +13,8 @@
   "CULUMINATION_POWER.smartDescription": "[gold]青溟剑势[/gold]消耗减少{Amount}层。",
 
   "ENLIGHTENED_MIND.title": "明心境",
-  "ENLIGHTENED_MIND.description": "受到的伤害减少[blue]25%[/blue]。\n能量耗尽时主动退出[gold]明心境[/gold]",
-  "ENLIGHTENED_MIND.smartDescription": "受到的伤害减少[blue]{DamageDecrease}%[/blue]。\n能量耗尽时结束[gold]明心境[/gold]",
+  "ENLIGHTENED_MIND.description": "受到的伤害减少[blue]25%[/blue]。\n获得[gold]明心境[/gold]时抽1张牌。\n能量耗尽时主动退出[gold]明心境[/gold]",
+  "ENLIGHTENED_MIND.smartDescription": "受到的伤害减少[blue]{DamageDecrease}%[/blue]。\n获得[gold]明心境[/gold]时抽1张牌。\n能量耗尽时结束[gold]明心境[/gold]",
 
   "FROSTED_BLADE_POWER.title": "剑引青霜",
   "FROSTED_BLADE_POWER.description": "[gold]明心境[/gold]状态结束时，获得能量。",
@@ -73,7 +73,6 @@
   "WHEN_I_RETURN_POWER.title": "归去时",
   "WHEN_I_RETURN_POWER.description": "本回合受到[gold]脆弱[/gold]敌人的伤害减少。",
   "WHEN_I_RETURN_POWER.smartDescription": "本回合受到[gold]脆弱[/gold]敌人的伤害减少{Amount}点。",
-
 
   "WHEN_MEMORIES_DRIFT_BY_POWER.title": "记忆流光时",
   "WHEN_MEMORIES_DRIFT_BY_POWER.description": "每消耗1层[gold]青溟剑势[/gold]，获得1点[gold]格挡[/gold]。",

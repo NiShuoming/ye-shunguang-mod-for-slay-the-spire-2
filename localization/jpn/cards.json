@@ -1,0 +1,241 @@
+{
+  "YESHUNGUANG-A_THOUSAND_FIRST_MEETINGS.title": "千万回目の初対面",
+  "YESHUNGUANG-A_THOUSAND_FIRST_MEETINGS.description": "[gold]ブロック[/gold]をブレイクした時、[gold]山札[/gold]から[gold]パートナー[/gold]カードを1枚プレイする。",
+
+  "YESHUNGUANG-A_BOUQUET_FOR_MYSELF.title": "自分への花束",
+  "YESHUNGUANG-A_BOUQUET_FOR_MYSELF.description": "[red]敵[/red]に{EnemyBlock:diff()}点[gold]ブロック[/gold]、{PlatingEnemy:diff()}層の[gold]プレート[/gold]を付与する。\n{PlatingPower:diff()}層の[gold]プレート[/gold]を得る。",
+
+  "YESHUNGUANG-AMNESIA.title": "忘却",
+  "YESHUNGUANG-AMNESIA.description": "[gold]手札[/gold]を1枚[gold]廃棄[/gold]する。\n{QingmingSwordForce:diff()}層の[gold]青溟剣勢[/gold]を得る。\nカードを{Cards:diff()}枚引く。",
+
+  "YESHUNGUANG-ASSAULT.title": "攻勢",
+  "YESHUNGUANG-ASSAULT.description": "{Damage:diff()}点ダメージを与える。\n{EtherVeil:diff}層の[gold]エーテルベール[/gold]を得る。\n[gold]ブロック[/gold]をブレイクした場合：{Energy:energyIcons()}を得て、カードを{Cards:diff()}枚引く。",
+
+  "YESHUNGUANG-AGENT.title": "代理人",
+  "YESHUNGUANG-AGENT.description": "すべてのプレイヤーの[gold]デバフ[/gold]を{Count:diff()}層分軽減する。",
+
+  "YESHUNGUANG-BEARER.title": "圧巻",
+  "YESHUNGUANG-BEARER.description": "[gold]手札[/gold]のコスト0{energyPrefix:energyIcons(1)}のカードと状態異常カードを[gold]廃棄[/gold]する。\n[gold]廃棄[/gold]したカード1枚につき、{QingmingSwordForce:diff()}層の[gold]青溟剣勢[/gold]を得て、カードを{Cards:diff()}枚引く。",
+
+  "YESHUNGUANG-BREAK_THROUGH.title": "破敵",
+  "YESHUNGUANG-BREAK_THROUGH.description": "[gold]ブロック[/gold]をブレイクした時、カードを{Cards:diff()}枚引く。",
+
+  "YESHUNGUANG-CLEAVING_HEAVENS.title": "慧剣よ天を開け",
+  "YESHUNGUANG-CLEAVING_HEAVENS.description": "ランダムな敵に{CalculatedDamage:diff()}点ダメージをX回与える。\n[gold]青溟剣勢[/gold]1層につき、ダメージ-1。",
+
+  "YESHUNGUANG-CLEAN_EXIT.title": "去れど跡を濁さず",
+  "YESHUNGUANG-CLEAN_EXIT.description": "{Block:diff()}点[gold]ブロック[/gold]を得る。\n{FrailPower:diff()}層の[gold]脆弱[/gold]を付与する。",
+
+  "YESHUNGUANG-CHASING_STORMS.title": "雲雷よ懼け",
+  "YESHUNGUANG-CHASING_STORMS.description": "{QingmingSwordForce:diff()}層の[gold]青溟剣勢[/gold]を得る。\nすべての敵に{Damage:diff()}点ダメージを与える。\n{EnlightenedMind:diff()}層の[pink]澄心境[/pink]を得る。",
+
+  "YESHUNGUANG-CLOUDDRIFT_ILLUMINATION.title": "流雲照影",
+  "YESHUNGUANG-CLOUDDRIFT_ILLUMINATION.description": "[gold]廃棄札[/gold]から[gold]記憶[/gold]カードまたは[gold]パートナー[/gold]カードを最大{Cards:diff()}枚選び、[gold]手札[/gold]に加える。",
+  "YESHUNGUANG-CLOUDDRIFT_ILLUMINATION.selectionScreenPrompt": "[gold]記憶[/gold]カードまたは[gold]パートナー[/gold]カードを最大{Cards:diff()}枚選ぶ。",
+
+  "YESHUNGUANG-CEASE_HOSTILITY.title": "止戈",
+  "YESHUNGUANG-CEASE_HOSTILITY.description": "{Damage:diff()}点ダメージを与える。\n[red]対象[/red]に{EnemyBlock:diff()}点[gold]ブロック[/gold]を付与する。",
+
+  "YESHUNGUANG-CLOUDSTREAM_SWORD_WILL.title": "流雲の剣意",
+  "YESHUNGUANG-CLOUDSTREAM_SWORD_WILL.description": "{Damage:diff()}点ダメージをX回与える。",
+
+  "YESHUNGUANG-CULUMINATION.title": "観止",
+  "YESHUNGUANG-CULUMINATION.description": "[gold]青溟剣勢[/gold]の消費量が1層減少する。",
+
+  "YESHUNGUANG-DIARY.title": "日記",
+  "YESHUNGUANG-DIARY.description": "[gold]手札[/gold]を1枚コピーする。",
+  "YESHUNGUANG-DIARY.selectionScreenPrompt": "[gold]手札[/gold]を1枚コピーする。",
+
+  "YESHUNGUANG-DEFEND_YE.title": "防御",
+  "YESHUNGUANG-DEFEND_YE.description": "{Block:diff()}点[gold]ブロック[/gold]を得る。",
+
+  "YESHUNGUANG-FROSTED_BLADE.title": "青霜を引く剣",
+  "YESHUNGUANG-FROSTED_BLADE.description": "[pink]澄心境[/pink]状態が終了した時、{Energy:energyIcons()}を得る。",
+
+  "YESHUNGUANG-FUTURE_DREAMS.title": "未来暢想",
+  "YESHUNGUANG-FUTURE_DREAMS.description": "毎ターン{QingmingSwordForce:diff()}層の[gold]青溟剣勢[/gold]を得る。",
+
+  "YESHUNGUANG-FLYING_SWORD.title": "飛剣",
+  "YESHUNGUANG-FLYING_SWORD.description": "{Damage:diff()}点ダメージを与える。",
+
+  "YESHUNGUANG-GUIDING_TIDES.title": "滄海を招き",
+  "YESHUNGUANG-GUIDING_TIDES.description": "{Damage:diff()}点ダメージを与える。\n[gold]飛剣[/gold]を{Cards:diff()}枚生成する。",
+
+  "YESHUNGUANG-GALE_SUPPRESSION.title": "薙ぎて瓜ぐ",
+  "YESHUNGUANG-GALE_SUPPRESSION.description": "ランダムな敵に{Damage:diff()}点ダメージを{Repeat:diff()}回与える。\n{Force:diff()}層の[gold]青溟剣勢[/gold]を得る。\n[gold]飛剣[/gold]を{Cards:diff()}枚生成する。",
+
+  "YESHUNGUANG-GACHA_FUN.title": "妙趣ガチャ",
+  "YESHUNGUANG-GACHA_FUN.description": "ランダムな[gold]Xコストカード[/gold]を1枚得る。このカードは[gold]廃棄[/gold]を得る。",
+
+  "YESHUNGUANG-HALO_OF_FLOWING_LIGHT.title": "流光萦繞",
+  "YESHUNGUANG-HALO_OF_FLOWING_LIGHT.description": "[gold]澄心境[/gold]状態の時、毎ターン{VigorPower:diff()}層の[gold]活力[/gold]を得る。",
+
+  "YESHUNGUANG-HONED_EDGE.title": "凛刃",
+  "YESHUNGUANG-HONED_EDGE.description": "{Damage:diff()}点ダメージを与える。\n対象が[gold]ブロック[/gold]を持つ場合、[gold]ブロック[/gold]をブレイクするまで再度攻撃する。\n攻撃するたび、[gold]脆弱[/gold]を1層付与する。",
+
+  "YESHUNGUANG-IF_I_COULD_BECOME_LIGHT.title": "光になれたなら",
+  "YESHUNGUANG-IF_I_COULD_BECOME_LIGHT.description": "カードを{Cards:diff()}枚引く。\n[gold]青溟剣勢[/gold]を1層消費：追加で{Extra:diff()}枚引く。",
+
+  "YESHUNGUANG-ILLUMINATING_DARKNESS.title": "鏡影",
+  "YESHUNGUANG-ILLUMINATING_DARKNESS.description": "すべての敵に{Damage:diff()}点ダメージを与える。\n[gold]青溟剣勢[/gold]≥6の場合：{EnlightenedMind:diff()}層の[pink]澄心境[/pink]を得る。",
+
+  "YESHUNGUANG-I_AM_YE_SHUNGUANG.title": "名は葉瞬光",
+  "YESHUNGUANG-I_AM_YE_SHUNGUANG.description": "[pink]澄心境[/pink]状態を終了する。\n{Block:diff()}点[gold]ブロック[/gold]を得る。\n[gold]手札[/gold]が満杯になるまでカードを引く。",
+
+  "YESHUNGUANG-LURE_THUNDER.title": "驚雷撃",
+  "YESHUNGUANG-LURE_THUNDER.description": "{Damage:diff()}点ダメージを{Repeat:diff()}回与える。\nこの戦闘中、このカードがダメージを与えるたび、ダメージ+{Increase:diff()}。",
+
+  "YESHUNGUANG-LEAVE_NO_TRACE.title": "無痕",
+  "YESHUNGUANG-LEAVE_NO_TRACE.description": "{Block:diff()}点[gold]ブロック[/gold]を得る。\n{WeakPower:diff()}層の[gold]脱力[/gold]を付与する。",
+
+  "YESHUNGUANG-LOCK_TARGET.title": "鎖敵",
+  "YESHUNGUANG-LOCK_TARGET.description": "{Damage:diff()}点ダメージを与える。\n[gold]青溟剣勢[/gold]を1層消費：{EtherVeil:diff()}層の[gold]エーテルベール[/gold]を得て、カードを{Cards:diff()}枚引く。",
+
+  "YESHUNGUANG-LIGHT_YEAR_PHENOMENON.title": "光年効果",
+  "YESHUNGUANG-LIGHT_YEAR_PHENOMENON.description": "[gold]手札[/gold]の[gold]飛剣[/gold]と[gold]ストライク[/gold]カードに[gold]リプレイ[/gold]を1層付与する。",
+
+  "YESHUNGUANG-LOSS_OF_ALL_FIVE_SENSES.title": "五感尽失",
+  "YESHUNGUANG-LOSS_OF_ALL_FIVE_SENSES.description": "[gold]手札[/gold]を任意の枚数[gold]廃棄[/gold]する。1枚につき{QingmingSwordForce:diff()}層の[gold]青溟剣勢[/gold]を得る。\n[gold]青溟剣勢[/gold]≥6の場合：1層の[pink]澄心境[/pink]を得る。",
+  "YESHUNGUANG-LOSS_OF_ALL_FIVE_SENSES.selectionScreenPrompt": "任意の枚数のカードを[gold]廃棄[/gold]し、[gold]青溟剣勢[/gold]を得る。",
+
+  "YESHUNGUANG-MIRACLE_OF_LIFE.title": "生命の奇跡",
+  "YESHUNGUANG-MIRACLE_OF_LIFE.description": "次のターン{NextBlock:diff()}点[gold]ブロック[/gold]を得る。\n[gold]青溟剣勢[/gold]≥6の場合：2層の[pink]澄心境[/pink]を得る。",
+
+  "YESHUNGUANG-OSMANTHUS_CAKE.title": "金木犀のケーキ",
+  "YESHUNGUANG-OSMANTHUS_CAKE.description": "[gold]青溟剣勢[/gold]をエネルギーに変換する。",
+
+  "YESHUNGUANG-PETS_AND_RESPONSIBILITIES.title": "ペットと責任",
+  "YESHUNGUANG-PETS_AND_RESPONSIBILITIES.description": "{Energy:energyIcons()}を得る。\n[gold]青溟剣勢[/gold]を1層消費：追加で{Extra:energyIcons()}を得る。",
+
+  "YESHUNGUANG-PHANTASM_DASH.title": "流影",
+  "YESHUNGUANG-PHANTASM_DASH.description": "{Damage:diff()}点ダメージを与える。\n{Extra:diff()}点ダメージを与えるごとに、カードを{Cards:diff()}枚引く。",
+
+  "YESHUNGUANG-PHOTO_WALL.title": "写真の壁",
+  "YESHUNGUANG-PHOTO_WALL.description": "{Block:diff()}点[gold]ブロック[/gold]を得る。\n[gold]手札[/gold]のカード1枚に[gold]保留[/gold]を付与する。",
+  "YESHUNGUANG-PHOTO_WALL.selectionScreenPrompt": "[gold]保留[/gold]を付与するカードを1枚選ぶ。",
+
+  "YESHUNGUANG-PERFECT_DODGE.title": "限界回避",
+  "YESHUNGUANG-PERFECT_DODGE.description": "{QingmingSwordForce:diff()}層の[gold]青溟剣勢[/gold]を得る。\n他のプレイヤー1人に{CalculatedBlock:diff()}点[gold]ブロック[/gold]を与える。\n[gold]青溟剣勢[/gold]1層につき、追加で{CalculationExtra:diff()}点[gold]ブロック[/gold]を与える。",
+
+  "YESHUNGUANG-QUICK_ATTACK.title": "速攻",
+  "YESHUNGUANG-QUICK_ATTACK.description": "{Damage:diff()}点ダメージを与える。\nダメージを与えた場合：{VulnerablePower:diff()}層の[gold]弱体[/gold]を付与し、カードを{Cards:diff()}枚引く。",
+
+  "YESHUNGUANG-QINGMING_SWORD.title": "青溟剣",
+  "YESHUNGUANG-QINGMING_SWORD.description": "[gold]手札[/gold]を{Cards:diff()}枚[gold]廃棄[/gold]する。\n{CalculatedDamage:diff()}点ダメージを与える。\n[gold]廃棄札[/gold]の[gold]記憶[/gold]カード1枚につき、ダメージ+{ExtraDamage:diff()}。",
+  "YESHUNGUANG-QINGMING_SWORD.selectionScreenPrompt": "[gold]廃棄[/gold]するカードを1枚選ぶ。",
+
+  "YESHUNGUANG-RETURN_TO_DUST.title": "回燼",
+  "YESHUNGUANG-RETURN_TO_DUST.description": "[red][/red][pink]澄心境[/pink][red]状態でのみプレイ可能[/red]。\nすべての敵に{Damage:diff()}点ダメージをX回与える。\n{QingmingSwordForce:diff()}層の[gold]青溟剣勢[/gold]を得る。",
+
+  "YESHUNGUANG-SHADOWTRACE_FLIGHT.title": "影を溯り鴻を驚かす",
+  "YESHUNGUANG-SHADOWTRACE_FLIGHT.description": "{IfUpgraded:show:[gold]エーテルベール[/gold]を1層展開する。\n|}[gold]エーテルベール[/gold]を得た時、{QingmingSwordForce:diff()}層の[gold]青溟剣勢[/gold]を得る。",
+
+  "YESHUNGUANG-SMITE_THE_WICKED.title": "邪祟斬り",
+  "YESHUNGUANG-SMITE_THE_WICKED.description": "{Damage:diff()}点ダメージを与える。\n{EtherVeil:diff()}層の[gold]エーテルベール[/gold]を消費する。\n残りの[gold]エーテルベール[/gold]1層につき、追加で1回攻撃する。",
+
+  "YESHUNGUANG-SUPPORT_GUARD.title": "援守",
+  "YESHUNGUANG-SUPPORT_GUARD.description": "{Block:diff()}点[gold]ブロック[/gold]を得る。\n[gold]捨て札[/gold]からカードを1枚[gold]山札[/gold]に加える。",
+  "YESHUNGUANG-SUPPORT_GUARD.selectionScreenPrompt": "[gold]山札[/gold]に加えるカードを1枚選ぶ。",
+
+  "YESHUNGUANG-SENIOR_SISTER_IS_HERE.title": "姉弟子がここにいる",
+  "YESHUNGUANG-SENIOR_SISTER_IS_HERE.description": "すべてのプレイヤーが{EtherVeil:diff()}層の[gold]エーテルベール[/gold]を得る。",
+
+  "YESHUNGUANG-SWALLOW_STRIKE.title": "燕襲",
+  "YESHUNGUANG-SWALLOW_STRIKE.description": "{Damage:diff()}点ダメージを与える。\n次のターン、{Energy:energyIcons()}を獲得する。",
+
+  "YESHUNGUANG-SWIFTEDGE.title": "速剣",
+  "YESHUNGUANG-SWIFTEDGE.description": "{CalculatedDamage:diff()}点ダメージを与える。\n[gold]エーテルベール[/gold]を持つ場合：追加で{ExtraDamage:diff()}点ダメージを与え、カードを{Cards:diff()}枚引く。",
+
+  "YESHUNGUANG-SPLITTING_CURRENTS.title": "破浪",
+  "YESHUNGUANG-SPLITTING_CURRENTS.description": "{Damage:diff()}点ダメージを{Repeat:diff()}回与える。",
+
+  "YESHUNGUANG-SKYWARD_ASCENT.title": "昇舞",
+  "YESHUNGUANG-SKYWARD_ASCENT.description": "{Block:diff()}点[gold]ブロック[/gold]を得る。\n[gold]青溟剣勢[/gold]を1層消費：{Extra:diff()}点[gold]ブロック[/gold]を得る。",
+
+  "YESHUNGUANG-SUNDERLIGHT_MAXIMUM.title": "光刃斬・極",
+  "YESHUNGUANG-SUNDERLIGHT_MAXIMUM.description": "すべての敵に{CalculatedDamage:diff()}点ダメージを与える。\n{QingmingSwordForce:diff()}層の[gold]青溟剣勢[/gold]を消費：追加で{ExtraDamage:diff()}点ダメージを与える。",
+
+  "YESHUNGUANG-SUNDERLIGHT.title": "光刃斬",
+  "YESHUNGUANG-SUNDERLIGHT.description": "{Damage:diff()}点ダメージを{Repeat:diff()}回与える。\n{Block:diff()}点[gold]ブロック[/gold]を得る。",
+
+  "YESHUNGUANG-SUNDERLIGHT_ANNIHILATION.title": "光刃斬・滅",
+  "YESHUNGUANG-SUNDERLIGHT_ANNIHILATION.description": "{Damage:diff()}点ダメージを与える。\n{QingmingSwordForce:diff()}層の[gold]青溟剣勢[/gold]を消費：もう一度ダメージを与える。",
+
+  "YESHUNGUANG-SPROUT.title": "メメ",
+  "YESHUNGUANG-SPROUT.description": "{Damage:diff()}点ダメージを与える。\n[gold]{IfUpgraded:show:飛剣+|飛剣}[/gold]を{Cards:diff()}枚[gold]手札[/gold]に加える。",
+
+  "YESHUNGUANG-SWORD_SHEATHE.title": "納剣",
+  "YESHUNGUANG-SWORD_SHEATHE.description": "[red]敵[/red]に{EnemyBlock:diff()}点[gold]ブロック[/gold]を付与する。\nカードを{Cards:diff()}枚引く。",
+
+  "YESHUNGUANG-SWORD_WIND.title": "剣風",
+  "YESHUNGUANG-SWORD_WIND.description": "[gold]光刃斬[/gold]を持つカードをプレイした時、すべての敵に{SwordWindPower:diff()}点ダメージを与え、{SwordWindPower:diff()}点[gold]ブロック[/gold]を得る。",
+
+  "YESHUNGUANG-SPELLCRAFT.title": "術法",
+  "YESHUNGUANG-SPELLCRAFT.description": "[red]敵[/red]に{EnemyBlock:diff()}点[gold]ブロック[/gold]を付与する。\n{QingmingSwordForce:diff()}層の[gold]青溟剣勢[/gold]を得る。",
+
+  "YESHUNGUANG-SWORD_MASTERY.title": "執剣",
+  "YESHUNGUANG-SWORD_MASTERY.description": "[gold]飛剣[/gold]を1枚生成する。\n[gold]手札[/gold]の[gold]飛剣[/gold]から[gold]廃棄[/gold]を除去し、ダメージ+{PowerUp:diff()}。",
+
+  "YESHUNGUANG-SWORD_WILL_STRIKE.title": "剣意打撃",
+  "YESHUNGUANG-SWORD_WILL_STRIKE.description": "{Damage:diff()}点ダメージを与える。\n{QingmingSwordForce:diff()}層の[gold]青溟剣勢[/gold]を得る。",
+
+  "YESHUNGUANG-SCABBARD.title": "剣鞘",
+  "YESHUNGUANG-SCABBARD.description": "[gold]飛剣[/gold]を1枚生成する。\n{CalculatedBlock:diff()}点[gold]ブロック[/gold]を得る。\n[gold]飛剣[/gold]を生成した回数1回につき、追加で{CalculationExtra:diff()}点[gold]ブロック[/gold]を得る（最大6回まで計算）。",
+
+  "YESHUNGUANG-SWORD_OF_THE_SOLITARY_HEART.title": "剣は孤心を映す",
+  "YESHUNGUANG-SWORD_OF_THE_SOLITARY_HEART.description": "{FrailPower:diff()}層の[gold]脆弱[/gold]を付与する。\n対象の[gold]脆弱[/gold]層数の{multi:diff()}倍のダメージを与える。",
+
+  "YESHUNGUANG-SWORD_SHADOW.title": "剣影",
+  "YESHUNGUANG-SWORD_SHADOW.description": "{Damage:diff()}点ダメージを与える。\n[gold]手札[/gold]の[blue]0[/blue]コストカード1枚につき、追加で1回プレイする。\n[gold]飛剣[/gold]を1枚生成する。",
+
+  "YESHUNGUANG-SOARING_LIGHT.title": "飛光",
+  "YESHUNGUANG-SOARING_LIGHT.description": "すべての敵に{Damage:diff()}点ダメージを与える。\nすべての[gold]青溟剣勢[/gold]を消費する。\n層数に応じて、[blue]X+{Count:diff()}[/blue]回のダメージを与える。",
+
+  "YESHUNGUANG-STRIKE_YE.title": "ストライク",
+  "YESHUNGUANG-STRIKE_YE.description": "{Damage:diff()}点ダメージを与える。",
+
+  "YESHUNGUANG-THE_MASTER_OF_QINGMING_SWORD.title": "青溟剣の剣主",
+  "YESHUNGUANG-THE_MASTER_OF_QINGMING_SWORD.description": "カードを[gold]廃棄[/gold]した時、このターン中{StrengthPower:diff()}点[gold]筋力[/gold]を得る。",
+
+  "YESHUNGUANG-TACTICAL_SUPPORT.title": "策応",
+  "YESHUNGUANG-TACTICAL_SUPPORT.description": "{Block:diff()}点[gold]ブロック[/gold]を得て、カードを1枚引く。\n[pink]澄心境[/pink]を得た時：[gold]手札[/gold]に加える。",
+
+  "YESHUNGUANG-TOUCH_OF_DAWNLIGHT.title": "暖霞拾光",
+  "YESHUNGUANG-TOUCH_OF_DAWNLIGHT.description": "[pink]澄心境[/pink]状態の時、[gold]記憶[/gold]カードは[gold]廃棄[/gold]を得ず、[gold]パートナー[/gold]も[gold]リプレイ[/gold]を得られる。",
+
+  "YESHUNGUANG-TAIL_SWIPE.title": "横掃",
+  "YESHUNGUANG-TAIL_SWIPE.description": "すべての敵に{Damage:diff()}点ダメージを与える。\n{FrailPower:diff()}層の[gold]脆弱[/gold]を付与する。",
+
+  "YESHUNGUANG-THE_SWORDBEARER_WHO_SUNDERS_THE_SKY.title": "溟を歩み剣を仗いて天光を開く",
+  "YESHUNGUANG-THE_SWORDBEARER_WHO_SUNDERS_THE_SKY.description": "[gold]パートナー[/gold]カードを引いた時、{EtherVeil:diff()}層の[gold]エーテルベール[/gold]と{EtherVeil:diff()}点[gold]ブロック[/gold]を得る。",
+
+  "YESHUNGUANG-TOWARD_A_BRIGHT_AND_SUNNY_TOMORROW.title": "陽光燦爛たる明日へ",
+  "YESHUNGUANG-TOWARD_A_BRIGHT_AND_SUNNY_TOMORROW.description": "[red]敵[/red]の[gold]脆弱[/gold]を除去する。\n同数の[gold]飛剣[/gold]を生成する。",
+
+  "YESHUNGUANG-UNIFICATION.title": "抱一",
+  "YESHUNGUANG-UNIFICATION.description": "{Damage:diff()}点ダメージを与える。\n敵は{Turn:diff()}ターンの間、[gold]パートナー[/gold]カードから受けるダメージが35%増加し、デバフ効果が2倍になる。",
+
+  "YESHUNGUANG-UNITY.title": "合道",
+  "YESHUNGUANG-UNITY.description": "他のプレイヤー1人に{VigorPower:diff()}層の[gold]活力[/gold]を与える。",
+
+  "YESHUNGUANG-VOID_HUNTER_QINGMING_ARBITER.title": "虚狩・青溟司命",
+  "YESHUNGUANG-VOID_HUNTER_QINGMING_ARBITER.description": "コスト[blue]X[/blue]のカードの効果数値が[blue]{Count:diff()}[/blue]点増加する。\nターン開始時、すべての[red]敵[/red]に{EnemyBlock:diff()}点[gold]ブロック[/gold]を付与する。",
+
+  "YESHUNGUANG-VERDICT.title": "決裁",
+  "YESHUNGUANG-VERDICT.description": "{EtherVeil:diff()}層の[gold]エーテルベール[/gold]と{Force:diff()}層の[gold]青溟剣勢[/gold]を得る。\n[gold]青溟剣勢[/gold]≥6の場合：{Mind:diff()}層の[pink]澄心境[/pink]を得る。",
+
+  "YESHUNGUANG-WHEN_I_RETURN.title": "帰去",
+  "YESHUNGUANG-WHEN_I_RETURN.description": "{Block:diff()}点[gold]ブロック[/gold]を得る。\nこのターン、[gold]脆弱[/gold]状態の敵から受けるダメージが{Decrease:diff()}点減少する。",
+
+  "YESHUNGUANG-WANDERING_CLOUD.title": "逍遙雲踪",
+  "YESHUNGUANG-WANDERING_CLOUD.description": "{Block:diff()}点[gold]ブロック[/gold]を得る。\n{QingmingSwordForce:diff()}層の[gold]青溟剣勢[/gold]を得る。",
+
+  "YESHUNGUANG-WHEN_MEMORIES_DRIFT_BY.title": "記憶流光の時",
+  "YESHUNGUANG-WHEN_MEMORIES_DRIFT_BY.description": "{Energy:diff()}層の[gold]青溟剣勢[/gold]を消費するたび、{Count:diff()}点[gold]ブロック[/gold]を得る。",
+
+  "YESHUNGUANG-WHEN_OLD_DREAMS_RESURFACE.title": "旧夢此の時回溯す",
+  "YESHUNGUANG-WHEN_OLD_DREAMS_RESURFACE.description": "毎ターン最初にカードを[gold]廃棄[/gold]した時、[gold]捨て札[/gold]にコピーを1枚加える。",
+
+  "YESHUNGUANG-WHITE_HAIR_FORM.title": "白髪形態",
+  "YESHUNGUANG-WHITE_HAIR_FORM.description": "{EnlightenedMind:diff()}層の[pink]澄心境[/pink]を得る。\nエネルギーが尽きても[pink]澄心境[/pink]から退出しなくなる。\n初期レリックでも[gold]青溟剣勢[/gold]を得られる。"
+}

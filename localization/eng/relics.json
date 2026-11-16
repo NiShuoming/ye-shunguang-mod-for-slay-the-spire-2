@@ -1,4 +1,6 @@
 {
+  "SEA_GLASS.YESHUNGUANG-YESHUNGUANG": "Ye Shunguang's Support",
+
   "YESHUNGUANG-BURNING_CLARTITY.title": "Burning Clartity",
   "YESHUNGUANG-BURNING_CLARTITY.description": "Whenever you have no [gold]Enlightened Mind[/gold], every time you play [blue]{Count}[/blue] attack cards, gain [blue]{Force}[/blue] [gold]Qingming Sword Force[/gold].",
   "YESHUNGUANG-BURNING_CLARTITY.flavor": "Core Passive Effect of Ye Shunguang.",
@@ -12,7 +14,7 @@
   "YESHUNGUANG-DREAMBOUND_SELF.flavor": "Countless times, in the dead of night, she finds herself returning to that day...",
 
   "YESHUNGUANG-LANTERN_WISH.title": "Lantern Wish",
-  "YESHUNGUANG-LANTERN_WISH.description": "Whenever the [gold]Enlightened Mind[/gold] is removed, play a random card in [gold]Hand[/gold].",
+  "YESHUNGUANG-LANTERN_WISH.description": "Whenever a enemy gains [gold]Block[/gold], gain {Block} [gold]Block[/gold].",
   "YESHUNGUANG-LANTERN_WISH.flavor": "\"I want to be one light among countless firefiles.\"\n\"The sun will rise. No matter how long the night lasts, dawn always comes.\"",
 
   "YESHUNGUANG-SWORDSWOMAN.title": "Swordswoman",

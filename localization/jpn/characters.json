@@ -1,0 +1,17 @@
+{
+  "YESHUNGUANG-YE_SHUNGUANG.aromaPrinciple": "[sine][pink]雲嶽山の葉瞬光、この剣をもって妄を破る。[/pink][/sine]",
+  "YESHUNGUANG-YE_SHUNGUANG.banter.alive.endTurnPing": "迷うな。",
+  "YESHUNGUANG-YE_SHUNGUANG.banter.dead.endTurnPing": "……",
+  "YESHUNGUANG-YE_SHUNGUANG.cardsModifierDescription": "葉瞬光のカードが報酬やショップに出現するようになる。",
+  "YESHUNGUANG-YE_SHUNGUANG.cardsModifierTitle": "葉瞬光のカード",
+  "YESHUNGUANG-YE_SHUNGUANG.description": "雲嶽山の弟子、青溟剣の剣主、虚狩・青溟司命、そしてアキラとリンの姉弟子――葉瞬光。\n失われた記憶を取り戻そうとしている。",
+  "YESHUNGUANG-YE_SHUNGUANG.eventDeathPrevention": "ごめん……師匠……妹弟子/弟弟子……。",
+  "YESHUNGUANG-YE_SHUNGUANG.goldMonologue": "[sine]妹弟子/弟弟子にプレゼントを買ってあげられる[/sine]",
+  "YESHUNGUANG-YE_SHUNGUANG.possessiveAdjective": "彼女の",
+  "YESHUNGUANG-YE_SHUNGUANG.pronounObject": "彼女",
+  "YESHUNGUANG-YE_SHUNGUANG.pronounPossessive": "彼女の",
+  "YESHUNGUANG-YE_SHUNGUANG.pronounSubject": "彼女",
+  "YESHUNGUANG-YE_SHUNGUANG.title": "葉瞬光",
+  "YESHUNGUANG-YE_SHUNGUANG.titleObject": "葉瞬光",
+  "YESHUNGUANG-YE_SHUNGUANG.unlockText": "アンロック不要。もしこのテキストが見えるなら、それはバグです。"
+}

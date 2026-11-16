@@ -13,8 +13,8 @@
   "CULUMINATION_POWER.smartDescription": "The consumption of [gold]Qingming Sword Force[/gold] is reduced by {Amount}.",
 
   "ENLIGHTENED_MIND.title": "Enlightened Mind",
-  "ENLIGHTENED_MIND.description": "Take [blue]25%[/blue] less damage.\nRemove [gold]Enlightened Mind[/gold] when energy is 0.",
-  "ENLIGHTENED_MIND.smartDescription": "Take [blue]{DamageDecrease}%[/blue] less damage.\nRemove [gold]Enlightened Mind[/gold] when energy is 0.",
+  "ENLIGHTENED_MIND.description": "Take [blue]25%[/blue] less damage.\nWhenever you gain [gold]Enlightened Mind[/gold], draw 1 card.\nRemove [gold]Enlightened Mind[/gold] when energy is 0.",
+  "ENLIGHTENED_MIND.smartDescription": "Take [blue]{DamageDecrease}%[/blue] less damage.\nWhenever you gain [gold]Enlightened Mind[/gold], draw 1 card.\nRemove [gold]Enlightened Mind[/gold] when energy is 0.",
 
 
   "FROSTED_BLADE_POWER.title": "Frosted Blade",
@@ -78,15 +78,15 @@
 
 
   "WHEN_MEMORIES_DRIFT_BY_POWER.title": "When Memories Drift By",
-  "WHEN_MEMORIES_DRIFT_BY_POWER.description": "Whenever you consume 1 [gold]Qingming Sword Force[/gold], gain block.",
-  "WHEN_MEMORIES_DRIFT_BY_POWER.smartDescription": "Whenever you consume 1 [gold]Qingming Sword Force[/gold], gain {Amount} block.",
+  "WHEN_MEMORIES_DRIFT_BY_POWER.description": "Whenever you consume 1 [gold]Qingming Sword Force[/gold], gain [gold]Block[/gold].",
+  "WHEN_MEMORIES_DRIFT_BY_POWER.smartDescription": "Whenever you consume 1 [gold]Qingming Sword Force[/gold], gain {Amount} [gold]Block[/gold].",
 
   "WHEN_OLD_DREAMS_RESURFACE_POWER.title": "When Old Dreams Resurface",
   "WHEN_OLD_DREAMS_RESURFACE_POWER.description": "Whenever you [gold]Exhaust[/gold] a card for the first time each turn, add a copy into your [gold]Discard Pile[/gold].",
   "WHEN_OLD_DREAMS_RESURFACE_POWER.smartDescription": "Whenever you [gold]Exhaust[/gold] a card for the first time each turn, add a copy into your [gold]Discard Pile[/gold].",
 
   "WHITE_HAIR_FORM_POWER.title": "White Hair Form",
-  "WHITE_HAIR_FORM_POWER.description": "[gold]Enlightened Mind[/gold] is no longer [gold]Removed[/gold] when Energy is 0.",
-  "WHITE_HAIR_FORM_POWER.smartDescription": "[gold]Enlightened Mind[/gold] is no longer [gold]Removed[/gold] when Energy is 0."
+  "WHITE_HAIR_FORM_POWER.description": "[gold]Enlightened Mind[/gold] is no longer [gold]Removed[/gold] when Energy is 0.\nRelics can still gain [gold]Qingming Sword Force[/gold].",
+  "WHITE_HAIR_FORM_POWER.smartDescription": "[gold]Enlightened Mind[/gold] is no longer [gold]Removed[/gold] when Energy is 0.\nRelics can still gain [gold]Qingming Sword Force[/gold]."
 
 }

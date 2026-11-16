@@ -33,10 +33,6 @@
   "YESHUNGUANG-CULUMINATION.title": "观止",
   "YESHUNGUANG-CULUMINATION.description": "[gold]青溟剑势[/gold]消耗减少1层。",
 
-  "YESHUNGUANG-CHAIN_ATTACK.title": "连携技",
-  "YESHUNGUANG-CHAIN_ATTACK.description": "造成{CalculatedDamage:diff()}点伤害。\n其他玩家每造成1次伤害，使伤害+{ExtraDamage:diff()}。",
-
-
   "YESHUNGUANG-DIARY.title": "日记",
   "YESHUNGUANG-DIARY.description": "复制1张[gold]手牌[/gold]。",
   "YESHUNGUANG-DIARY.selectionScreenPrompt": "复制1张[gold]手牌[/gold]。",
@@ -78,7 +74,7 @@
   "YESHUNGUANG-LEAVE_NO_TRACE.title": "不留行",
   "YESHUNGUANG-LEAVE_NO_TRACE.description": "获得{Block:diff()}点[gold]格挡[/gold]。\n给予{WeakPower:diff()}层[gold]虚弱[/gold]。",
   "YESHUNGUANG-LOCK_TARGET.title": "锁敌",
-  "YESHUNGUANG-LOCK_TARGET.description": "造成{Damage:diff()}点伤害。\n消耗1层[gold]青溟剑势[/gold]：降低目标1层[gold]力量[/gold]。",
+  "YESHUNGUANG-LOCK_TARGET.description": "造成{Damage:diff()}点伤害。\n消耗1层[gold]青溟剑势[/gold]：获得{EtherVeil:diff()}层[gold]以太帷幕[/gold]，抽{Cards:diff()}张牌。",
   "YESHUNGUANG-LIGHT_YEAR_PHENOMENON.title": "光年效应",
   "YESHUNGUANG-LIGHT_YEAR_PHENOMENON.description": "给[gold]手牌[/gold]中的[gold]飞剑[/gold]和[gold]打击[/gold]牌添加1[gold]重放[/gold]。",
 
@@ -115,14 +111,14 @@
   "YESHUNGUANG-SHADOWTRACE_FLIGHT.title": "溯影惊鸿",
   "YESHUNGUANG-SHADOWTRACE_FLIGHT.description": "{IfUpgraded:show:开启1层[gold]以太帷幕[/gold]。\n|}获得[gold]以太帷幕[/gold]时，获得{QingmingSwordForce:diff()}层[gold]青溟剑势[/gold]。",
   "YESHUNGUANG-SMITE_THE_WICKED.title": "斩邪祟",
-  "YESHUNGUANG-SMITE_THE_WICKED.description": "造成{Damage:diff()}点伤害。\n消耗超过{EtherVeil:diff()}层的[gold]以太帷幕[/gold]，每消耗1层多攻击1次。",
+  "YESHUNGUANG-SMITE_THE_WICKED.description": "造成{Damage:diff()}点伤害。\n消耗{EtherVeil:diff()}层[gold]以太帷幕[/gold]。\n每剩下1层[gold]以太帷幕[/gold]多攻击1次。",
   "YESHUNGUANG-SUPPORT_GUARD.title": "援守",
   "YESHUNGUANG-SUPPORT_GUARD.description": "获得{Block:diff()}点[gold]格挡[/gold]。\n将[gold]弃牌堆[/gold]中的1张牌加入抽牌堆。",
-  "YESHUNGUANG-SUPPORT_GUARD.selectionScreenPrompt": "选择一张[gold]伙伴[/gold]牌加放入[gold]抽牌堆[/gold]。",
+  "YESHUNGUANG-SUPPORT_GUARD.selectionScreenPrompt": "选择一张牌加放入[gold]抽牌堆[/gold]。",
   "YESHUNGUANG-SENIOR_SISTER_IS_HERE.title": "师姐在此",
   "YESHUNGUANG-SENIOR_SISTER_IS_HERE.description": "所有玩家获得{EtherVeil:diff()}层[gold]以太帷幕[/gold]。",
   "YESHUNGUANG-SWALLOW_STRIKE.title": "燕袭",
-  "YESHUNGUANG-SWALLOW_STRIKE.description": "造成{Damage:diff()}点伤害。\n如果上一张牌是[gold]技能牌[/gold]，获得{VigorPower:diff()}层[gold]活力[/gold]。",
+  "YESHUNGUANG-SWALLOW_STRIKE.description": "造成{Damage:diff()}点伤害。\n下回合获得{Energy:energyIcons()}",
   "YESHUNGUANG-SWIFTEDGE.title": "快剑",
   "YESHUNGUANG-SWIFTEDGE.description": "造成{CalculatedDamage:diff()}点伤害。\n如果有[gold]以太帷幕[/gold]：多造成{ExtraDamage:diff()}点伤害，抽{Cards:diff()}张牌。",
   "YESHUNGUANG-SPLITTING_CURRENTS.title": "分水行",
@@ -150,11 +146,11 @@
   "YESHUNGUANG-SCABBARD.title": "剑鞘",
   "YESHUNGUANG-SCABBARD.description": "生成1把[gold]飞剑[/gold]。\n获得{CalculatedBlock:diff()}点[gold]格挡[/gold]。\n每生成过1把[gold]飞剑[/gold]，额外获得{CalculationExtra:diff()}点[gold]格挡[/gold]，最多计算6次。",
   "YESHUNGUANG-SWORD_OF_THE_SOLITARY_HEART.title": "剑映孤心",
-  "YESHUNGUANG-SWORD_OF_THE_SOLITARY_HEART.description": "给予{FrailPower:diff()}层[gold]脆弱[/gold]。\n造成双倍于目标拥有[gold]脆弱[/gold]层数的伤害。",
+  "YESHUNGUANG-SWORD_OF_THE_SOLITARY_HEART.description": "给予{FrailPower:diff()}层[gold]脆弱[/gold]。\n造成{multi:diff()}倍于目标拥有[gold]脆弱[/gold]层数的伤害。",
   "YESHUNGUANG-SWORD_SHADOW.title": "剑影",
-  "YESHUNGUANG-SWORD_SHADOW.description": "造成{Damage:diff()}点伤害。\n[gold]手牌[/gold]中每有1张[blue]0[/blue]费牌，多打出1次。",
+  "YESHUNGUANG-SWORD_SHADOW.description": "造成{Damage:diff()}点伤害。\n[gold]手牌[/gold]中每有1张[blue]0[/blue]费牌，多打出1次。\n生成1把[gold]飞剑[/gold]。",
   "YESHUNGUANG-SOARING_LIGHT.title": "飞光",
-  "YESHUNGUANG-SOARING_LIGHT.description": "造成{Damage:diff()}点伤害\n消耗所有[gold]青溟剑势[/gold]\n根据层数，造成[blue]x+{Count:diff()}[/blue]次伤害。",
+  "YESHUNGUANG-SOARING_LIGHT.description": "对所有敌人造成{Damage:diff()}点伤害\n消耗所有[gold]青溟剑势[/gold]\n根据层数，造成[blue]x+{Count:diff()}[/blue]次伤害。",
   "YESHUNGUANG-STRIKE_YE.title": "打击",
   "YESHUNGUANG-STRIKE_YE.description": "造成{Damage:diff()}点伤害。",
 
@@ -163,11 +159,11 @@
   "YESHUNGUANG-TACTICAL_SUPPORT.title": "策应",
   "YESHUNGUANG-TACTICAL_SUPPORT.description": "获得{Block:diff()}[gold]格挡[/gold]，抽1张牌。\n获得[pink]明心境[/pink]时：召唤到[gold]手牌[/gold]中。",
   "YESHUNGUANG-TOUCH_OF_DAWNLIGHT.title": "暖霞拾光",
-  "YESHUNGUANG-TOUCH_OF_DAWNLIGHT.description": "[pink]明心境[/pink]状态下，[gold]记忆[/gold]牌不再[gold]消耗[/gold]，[gold]伙伴[/gold]也可以获得[gold]重放[/gold]。",
+  "YESHUNGUANG-TOUCH_OF_DAWNLIGHT.description": "[pink]明心境[/pink]状态下，[gold]记忆[/gold]牌不再获得[gold]消耗[/gold]，[gold]伙伴[/gold]也可以获得[gold]重放[/gold]。",
   "YESHUNGUANG-TAIL_SWIPE.title": "横扫",
   "YESHUNGUANG-TAIL_SWIPE.description": "对所有敌人造成{Damage:diff()}点伤害。\n给予{FrailPower:diff()}层[gold]脆弱[/gold]。",
   "YESHUNGUANG-THE_SWORDBEARER_WHO_SUNDERS_THE_SKY.title": "步溟仗剑开天光",
-  "YESHUNGUANG-THE_SWORDBEARER_WHO_SUNDERS_THE_SKY.description": "抽到[gold]伙伴[/gold]牌时，获得{EtherVeil:diff()}层[gold]以太帷幕[/gold]、{Block:diff()}点[gold]格挡[/gold]。",
+  "YESHUNGUANG-THE_SWORDBEARER_WHO_SUNDERS_THE_SKY.description": "抽到[gold]伙伴[/gold]牌时，获得{EtherVeil:diff()}层[gold]以太帷幕[/gold]、{EtherVeil:diff()}点[gold]格挡[/gold]。",
 
   "YESHUNGUANG-TOWARD_A_BRIGHT_AND_SUNNY_TOMORROW.title": "向着阳光灿烂的明天",
   "YESHUNGUANG-TOWARD_A_BRIGHT_AND_SUNNY_TOMORROW.description": "清除[red]敌人[/red]的[gold]脆弱[/gold]。\n生成等量[gold]飞剑[/gold]。",
@@ -195,5 +191,5 @@
   "YESHUNGUANG-WHEN_OLD_DREAMS_RESURFACE.description": "每回合第一次[gold]消耗[/gold]卡牌时，向[gold]弃牌堆[/gold]中添加1张复制品。",
 
   "YESHUNGUANG-WHITE_HAIR_FORM.title": "白发形态",
-  "YESHUNGUANG-WHITE_HAIR_FORM.description": "获得{EnlightenedMind:diff()}层[pink]明心境[/pink]。\n能量耗尽时不再退出[pink]明心境[/pink]。"
+  "YESHUNGUANG-WHITE_HAIR_FORM.description": "获得{EnlightenedMind:diff()}层[pink]明心境[/pink]。\n能量耗尽时不再退出[pink]明心境[/pink]。\n初始遗物仍然可以获得[gold]青溟剑势[/gold]。"
 }

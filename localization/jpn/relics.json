@@ -1,0 +1,43 @@
+{
+  "SEA_GLASS.YESHUNGUANG-YESHUNGUANG": "葉瞬光の支援",
+
+  "YESHUNGUANG-BURNING_CLARTITY.title": "無明照破",
+  "YESHUNGUANG-BURNING_CLARTITY.description": "[gold]澄心境[/gold]状態でない時、[blue]{Count}[/blue]回[gold]アタックカード[/gold]をプレイするごとに、[blue]{Force}[/blue]層の[gold]青溟剣勢[/gold]を獲得する。",
+  "YESHUNGUANG-BURNING_CLARTITY.flavor": "葉瞬光のコアパッシブ効果。",
+
+  "YESHUNGUANG-CASE_FULL_OF_LIGHT.title": "剣棺をよぎる瞬光",
+  "YESHUNGUANG-CASE_FULL_OF_LIGHT.description": "[gold]澄心境[/gold]状態でない時、[blue]{Count}[/blue]回[gold]アタックカード・スキルカード[/gold]をプレイするごとに、[blue]{Force}[/blue]層の[gold]青溟剣勢[/gold]を獲得する。",
+  "YESHUNGUANG-CASE_FULL_OF_LIGHT.flavor": "葉瞬光の戦術プリズムの一つ。主に[gold]青溟剣勢[/gold]の獲得効率を高めるために用いられる。",
+
+  "YESHUNGUANG-DREAMBOUND_SELF.title": "うたかたの夢",
+  "YESHUNGUANG-DREAMBOUND_SELF.description": "[gold]澄心境[/gold]を獲得した時、[blue]{StrengthPower}[/blue]層の[gold]筋力[/gold]を獲得する。",
+  "YESHUNGUANG-DREAMBOUND_SELF.flavor": "幾度となく真夜中の夢の中で、彼女はあの日のことを思い出す……",
+
+  "YESHUNGUANG-LANTERN_WISH.title": "ともし火の願い",
+  "YESHUNGUANG-LANTERN_WISH.description": "敵が[gold]ブロック[/gold]を獲得した時、{Block}点の[gold]ブロック[/gold]を獲得する。",
+  "YESHUNGUANG-LANTERN_WISH.flavor": "「私は万千の蛍火の中の一盏になりたい」\n「夜がどんなに長くても、必ず夜明けは来る。白昼はいつかやって来る。」",
+
+  "YESHUNGUANG-SWORDSWOMAN.title": "剣客は往く",
+  "YESHUNGUANG-SWORDSWOMAN.description": "戦闘開始時、[gold]手札[/gold]に[gold]飛光[/gold]を1枚加える。",
+  "YESHUNGUANG-SWORDSWOMAN.flavor": "「剣客って何？」\n「ただ……一往無前の勇気と、すべてを斬り開く決意のことだ。」",
+
+  "YESHUNGUANG-TOGETHER_INTO_THE_DUST.title": "暗き塵と共にあれ",
+  "YESHUNGUANG-TOGETHER_INTO_THE_DUST.description": "[gold]エーテルベール[/gold]を獲得した時、すべての敵に[blue]{VulnerablePower}[/blue]層の[gold]弱体[/gold]を付与する。",
+  "YESHUNGUANG-TOGETHER_INTO_THE_DUST.flavor": "「分かってる」\n「私の人生は、ずっと[gold]喪失[/gold]と共にあるの。」",
+
+  "YESHUNGUANG-GUIDING_GLIMMER.title": "希望に手を引かれ",
+  "YESHUNGUANG-GUIDING_GLIMMER.description": "[gold]パートナー[/gold]カードのコストが[blue]1[/blue]減少する。",
+  "YESHUNGUANG-GUIDING_GLIMMER.flavor": "「兄さん、師匠、適当観のみんな……そして、あなた」\n「分かってる。あなたたちはずっと私を待っていてくれるって。」",
+
+  "YESHUNGUANG-LIGHT_SHADOW.title": "光と影",
+  "YESHUNGUANG-LIGHT_SHADOW.description": "[gold]青溟剣勢[/gold]の上限+[blue]{Max}[/blue]。\n戦闘開始時、[blue]{Max}[/blue]層の[gold]青溟剣勢[/gold]を獲得する。",
+  "YESHUNGUANG-LIGHT_SHADOW.flavor": "長く終わりのない寂寥と、影の如く付きまとう恐怖の中で、[gold]もう一人の自分[/gold]がひっそりと誕生した。",
+
+  "YESHUNGUANG-CLANG_OF_JADE.title": "鏗然たる刃鳴り",
+  "YESHUNGUANG-CLANG_OF_JADE.description": "[gold]澄心境[/gold]を獲得した時、追加で[blue]1[/blue]層多く獲得する。",
+  "YESHUNGUANG-CLANG_OF_JADE.flavor": "葉瞬光の戦術プリズムの一つ。今ならショップで購入できる。",
+
+  "FROSTED_BLADE_POWER.title": "青霜を引く剣",
+  "FROSTED_BLADE_POWER.description": "[gold]澄心境[/gold]状態が終了した時、エネルギーを獲得する。",
+  "FROSTED_BLADE_POWER.smartDescription": "[gold]澄心境[/gold]状態が終了した時、{Amount:energyIcons()}を獲得する。"
+}

@@ -1,0 +1,85 @@
+{
+  "A_THOUSAND_FIRST_MEETINGS_POWER.title": "千万回目の初対面",
+  "A_THOUSAND_FIRST_MEETINGS_POWER.description": "[gold]ブロック[/gold]をブレイクした時、[gold]山札[/gold]から[gold]パートナー[/gold]カードを1枚プレイする。",
+  "A_THOUSAND_FIRST_MEETINGS_POWER.smartDescription": "[gold]ブロック[/gold]をブレイクした時、[gold]山札[/gold]から[gold]パートナー[/gold]カードを{Amount}枚プレイする。",
+
+  "BREAK_THROUGH_POWER.title": "破敵",
+  "BREAK_THROUGH_POWER.description": "[gold]ブロック[/gold]をブレイクした時、カードを引く。",
+  "BREAK_THROUGH_POWER.smartDescription": "[gold]ブロック[/gold]をブレイクした時、カードを{Amount}枚引く。",
+
+  "CULUMINATION_POWER.title": "観止",
+  "CULUMINATION_POWER.description": "[gold]青溟剣勢[/gold]の消費量が減少する。",
+  "CULUMINATION_POWER.smartDescription": "[gold]青溟剣勢[/gold]の消費量が{Amount}層減少する。",
+
+  "ENLIGHTENED_MIND.title": "澄心境",
+  "ENLIGHTENED_MIND.description": "受けるダメージが[blue]25%[/blue]減少する。\n[gold]澄心境[/gold]を獲得するたび、カードを1枚引く。\nエネルギーが尽きると[gold]澄心境[/gold]から自主的に退出する",
+  "ENLIGHTENED_MIND.smartDescription": "受けるダメージが[blue]{DamageDecrease}%[/blue]減少する。\n[gold]澄心境[/gold]を獲得するたび、カードを1枚引く。\nエネルギーが尽きると[gold]澄心境[/gold]が終了する",
+
+  "FROSTED_BLADE_POWER.title": "青霜を引く剣",
+  "FROSTED_BLADE_POWER.description": "[gold]澄心境[/gold]状態が終了した時、エネルギーを獲得する。",
+  "FROSTED_BLADE_POWER.smartDescription": "[gold]澄心境[/gold]状態が終了した時、{Amount:energyIcons()}を獲得する。",
+
+  "FUTURE_DREAMS_POWER.title": "未来暢想",
+  "FUTURE_DREAMS_POWER.description": "ターン開始時、1層の[gold]青溟剣勢[/gold]を獲得する。",
+  "FUTURE_DREAMS_POWER.smartDescription": "ターン開始時、{Amount}層の[gold]青溟剣勢[/gold]を獲得する。",
+
+  "HALO_OF_FLOWING_LIGHT_POWER.title": "流光萦繞",
+  "HALO_OF_FLOWING_LIGHT_POWER.description": "[gold]澄心境[/gold]状態の時、毎ターン[gold]活力[/gold]を獲得する。",
+  "HALO_OF_FLOWING_LIGHT_POWER.smartDescription": "[gold]澄心境[/gold]状態の時、毎ターン{Amount}層の[gold]活力[/gold]を獲得する。",
+
+  "QINGMING_SWORD_FORCE.title": "青溟剣勢",
+  "QINGMING_SWORD_FORCE.description": "[gold]澄心境[/gold]を獲得した時、剣勢がエネルギーに変換される。",
+  "QINGMING_SWORD_FORCE.smartDescription": "[gold]澄心境[/gold]を獲得した時、剣勢がエネルギーに変換される。",
+
+  "SWORD_RIDING.title": "御剣",
+  "SWORD_RIDING.description": "御剣で飛空し、受けるダメージが[blue]25%[/blue]減少する。",
+  "SWORD_RIDING.smartDescription": "御剣で飛空し、受けるダメージが[blue]{DamageDecrease}%[/blue]減少する。",
+
+  "SHADOWTRACE_FLIGHT_POWER.title": "影を溯り鴻を驚かす",
+  "SHADOWTRACE_FLIGHT_POWER.description": "[gold]エーテルベール[/gold]を獲得した時、1層の[gold]青溟剣勢[/gold]を獲得する。",
+  "SHADOWTRACE_FLIGHT_POWER.smartDescription": "[gold]エーテルベール[/gold]を獲得した時、{Amount}層の[gold]青溟剣勢[/gold]を獲得する。",
+
+  "SWORD_WIND_POWER.title": "剣風",
+  "SWORD_WIND_POWER.description": "[gold]光刃斬[/gold]を持つカードをプレイした時、すべての敵にダメージを与え、[gold]ブロック[/gold]を獲得する。",
+  "SWORD_WIND_POWER.smartDescription": "[gold]光刃斬[/gold]を持つカードをプレイした時、すべての敵に{Amount}点のダメージを与え、{Amount}点の[gold]ブロック[/gold]を獲得する。",
+
+  "TOUCH_OF_DAWNLIGHT_POWER.title": "暖霞拾光",
+  "TOUCH_OF_DAWNLIGHT_POWER.description": "[gold]澄心境[/gold]状態の時、[gold]記憶[/gold]カードは[gold]廃棄[/gold]を得ず、[gold]パートナー[/gold]も[blue]1[/blue]回の[gold]リプレイ[/gold]を獲得できる。",
+  "TOUCH_OF_DAWNLIGHT_POWER.smartDescription": "[gold]澄心境[/gold]状態の時、[gold]記憶[/gold]カードは[gold]廃棄[/gold]を得ず、[gold]パートナー[/gold]も[blue]1[/blue]回の[gold]リプレイ[/gold]を獲得できる",
+
+  "THE_MASTER_OF_QINGMING_SWORD_POWER.title": "青溟剣の剣主",
+  "THE_MASTER_OF_QINGMING_SWORD_POWER.description": "カードを[gold]廃棄[/gold]した時、このターン中[gold]筋力[/gold]を獲得する。",
+  "THE_MASTER_OF_QINGMING_SWORD_POWER.smartDescription": "カードを[gold]廃棄[/gold]した時、このターン中{Amount}層の[gold]筋力[/gold]を獲得する。",
+
+  "THE_SWORDBEARER_WHO_SUNDERS_THE_SKY_POWER.title": "溟を歩み剣を仗いて天光を開く",
+  "THE_SWORDBEARER_WHO_SUNDERS_THE_SKY_POWER.description": "[gold]パートナー[/gold]カードを引いた時、[gold]エーテルベール[/gold]と[gold]ブロック[/gold]を獲得する。",
+  "THE_SWORDBEARER_WHO_SUNDERS_THE_SKY_POWER.smartDescription": "[gold]パートナー[/gold]カードを引いた時、{Amount}層の[gold]エーテルベール[/gold]と{Amount}層の[gold]ブロック[/gold]を獲得する。",
+
+  "UNIFICATION_POWER.title": "抱一",
+  "UNIFICATION_POWER.description": "[gold]パートナー[/gold]カードから受けるダメージが35%増加し、デバフ効果が2倍になる。",
+  "UNIFICATION_POWER.smartDescription": "[gold]パートナー[/gold]カードから受けるダメージが35%増加し、デバフ効果が2倍になる。",
+
+  "VOID_HUNTER_QINGMING_ARBITER_POWER.title": "虚狩",
+  "VOID_HUNTER_QINGMING_ARBITER_POWER.description": "コスト[blue]X[/blue]のカードの効果数値が増加する。",
+  "VOID_HUNTER_QINGMING_ARBITER_POWER.smartDescription": "コスト[blue]X[/blue]のカードの効果数値が[blue]{Amount}[/blue]点増加する。",
+
+  "VOID_HUNTER_QINGMING_ARBITER_POWER2.title": "青溟司命",
+  "VOID_HUNTER_QINGMING_ARBITER_POWER2.description": "ターン開始時、すべての[red]敵[/red]に[gold]ブロック[/gold]を付与する。",
+  "VOID_HUNTER_QINGMING_ARBITER_POWER2.smartDescription": "ターン開始時、すべての[red]敵[/red]に[blue]{Amount}[/blue]点の[gold]ブロック[/gold]を付与する。",
+
+  "WHEN_I_RETURN_POWER.title": "帰去",
+  "WHEN_I_RETURN_POWER.description": "このターン、[gold]脆弱[/gold]状態の敵から受けるダメージが減少する。",
+  "WHEN_I_RETURN_POWER.smartDescription": "このターン、[gold]脆弱[/gold]状態の敵から受けるダメージが{Amount}点減少する。",
+
+  "WHEN_MEMORIES_DRIFT_BY_POWER.title": "記憶流光の時",
+  "WHEN_MEMORIES_DRIFT_BY_POWER.description": "[gold]青溟剣勢[/gold]を1層消費するごとに、1点の[gold]ブロック[/gold]を獲得する。",
+  "WHEN_MEMORIES_DRIFT_BY_POWER.smartDescription": "[gold]青溟剣勢[/gold]を1層消費するごとに、{Amount}点の[gold]ブロック[/gold]を獲得する。",
+
+  "WHEN_OLD_DREAMS_RESURFACE_POWER.title": "旧夢此の時回溯す",
+  "WHEN_OLD_DREAMS_RESURFACE_POWER.description": "毎ターン最初にカードを[gold]廃棄[/gold]した時、[gold]捨て札[/gold]にコピーを1枚加える。",
+  "WHEN_OLD_DREAMS_RESURFACE_POWER.smartDescription": "毎ターン最初にカードを[gold]廃棄[/gold]した時、[gold]捨て札[/gold]にコピーを1枚加える。",
+
+  "WHITE_HAIR_FORM_POWER.title": "白髪形態",
+  "WHITE_HAIR_FORM_POWER.description": "エネルギーが尽きても[gold]澄心境[/gold]から退出しなくなる。",
+  "WHITE_HAIR_FORM_POWER.smartDescription": "エネルギーが尽きても[gold]澄心境[/gold]から退出しなくなる。"
+}

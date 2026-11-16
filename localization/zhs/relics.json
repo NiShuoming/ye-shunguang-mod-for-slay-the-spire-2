@@ -1,4 +1,5 @@
 {
+  "SEA_GLASS.YESHUNGUANG-YESHUNGUANG": "叶瞬光的支援",
   "YESHUNGUANG-BURNING_CLARTITY.title": "照破无明",
   "YESHUNGUANG-BURNING_CLARTITY.description": "在非[gold]明心境[/gold]状态下，每打出[blue]{Count}[/blue]次[gold]攻击牌[/gold]，获得[blue]{Force}[/blue]层[gold]青溟剑势[/gold]。",
   "YESHUNGUANG-BURNING_CLARTITY.flavor": "叶瞬光的核心被动效果。",
@@ -12,7 +13,7 @@
   "YESHUNGUANG-DREAMBOUND_SELF.flavor": "无数次午夜梦回，她都会想起那一天……",
 
   "YESHUNGUANG-LANTERN_WISH.title": "明灯愿",
-  "YESHUNGUANG-LANTERN_WISH.description": "[gold]明心境[/gold]结束时，打出随机一张[gold]手牌[/gold]。",
+  "YESHUNGUANG-LANTERN_WISH.description": "敌人获得[gold]格挡[/gold]时，获得{Block}点[gold]格挡[/gold]。",
   "YESHUNGUANG-LANTERN_WISH.flavor": "\"我想成为万千萤火中的一盏\"\n\"天总会亮的。无论黑夜多么漫长，白昼终将到来。\"",
 
   "YESHUNGUANG-SWORDSWOMAN.title": "剑客行",
