@@ -76,7 +76,7 @@ namespace YeShunguang
             ModelDb.Relic<BurningClartity>()
         ];
         // 角色播放攻击动作后，到真正出手/命中前的延迟时间
-        public override float AttackAnimDelay => 0.15f;
+        public override float AttackAnimDelay => 0.16f;
 
         // 角色播放施法动作后，到效果实际触发前的延迟时间
         public override float CastAnimDelay => 0.25f;
@@ -141,7 +141,6 @@ namespace YeShunguang
         {
             await PowerCmd.Apply<EnlightenedMind>(choiceContext, cardPlay.Card.Owner.Creature, 2, cardPlay.Card.Owner.Creature, cardPlay.Card);
         }
-
         
     }
 
