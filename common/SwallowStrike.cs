@@ -15,46 +15,30 @@ using System.Threading.Tasks;
 namespace YeShunguang
 {
     /// <summary>
-    /// 燕袭 1 造成8->11点伤害，如果上一张是技能牌，获得4活力
+    /// 燕袭 1 造成8->11点伤害，下回合获得1能量
     /// </summary>
     public class SwallowStrike:YeCardModel
     {
         public SwallowStrike() : base(1, CardType.Attack, CardRarity.Common, TargetType.AnyEnemy) { }
 
         protected override IEnumerable<DynamicVar> CanonicalVars => 
-            [new DamageVar(8m,ValueProp.Move),new PowerVar<VigorPower>(4m)];
+            [new DamageVar(8m,ValueProp.Move),new EnergyVar(1)];
 
         protected override IEnumerable<IHoverTip> ExtraHoverTips => 
-            [HoverTipFactory.FromPower<VigorPower>()];
+            [HoverTipFactory.FromPower<VigorPower>(), EnergyHoverTip];
 
         protected override HashSet<CardTag> CanonicalTags => 
             [CardTag.Strike];
 
-        bool isSkill = false;
-
-        protected override bool ShouldGlowGoldInternal => isSkill;
-
-        public override Task AfterCardPlayed(PlayerChoiceContext context, CardPlay cardPlay)
-        {
-            if(cardPlay.Card.Owner!=Owner) return Task.CompletedTask;
-            if(cardPlay.Card.Type == CardType.Skill)
-            {
-                isSkill = true;
-            }
-            else isSkill = false;
-            return Task.CompletedTask;
-        }
-
         protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
         {
             ArgumentNullException.ThrowIfNull(cardPlay.Target, "cardPlay.Target");
+            VoiceManager.PlayAttackVoice(Owner.Creature.HasPower<EnlightenedMind>());
             await DamageCmd.Attack(base.DynamicVars.Damage.BaseValue).FromCard(this, cardPlay).Targeting(cardPlay.Target)
-                .WithHitFx("vfx/vfx_attack_slash")
+                .WithHitFx("vfx/vfx_attack_slash", tmpSfx: "打击音效.mp3")
                 .Execute(choiceContext);
 
-            if(isSkill) await PowerCmd.Apply<VigorPower>(choiceContext,Owner.Creature,
-                DynamicVars.Power<VigorPower>().BaseValue, Owner.Creature,
-                this);
+            await PowerCmd.Apply<EnergyNextTurnPower>(choiceContext, Owner.Creature, DynamicVars.Energy.BaseValue, Owner.Creature, this);
         }
 
         protected override void OnUpgrade()
