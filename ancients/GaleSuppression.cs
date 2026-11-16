@@ -30,10 +30,12 @@ namespace YeShunguang
 
         protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
         {
+            VoiceManager.PlayAttackVoice(Owner.Creature.HasPower<EnlightenedMind>());
+
             await DamageCmd.Attack(base.DynamicVars.Damage.BaseValue).
                 WithHitCount(DynamicVars.Repeat.IntValue).
                 FromCard(this, cardPlay).TargetingRandomOpponents(CombatState)
-                .WithHitFx("vfx/vfx_attack_slash")
+                .WithHitFx("vfx/vfx_attack_slash", tmpSfx: "打击音效.mp3")
                 .Execute(choiceContext);
 
             await ZZZCmd.AddSecondEnergy(Owner, DynamicVars["Force"].IntValue, Owner.Creature, this);
