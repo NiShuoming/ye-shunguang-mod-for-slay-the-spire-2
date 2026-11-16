@@ -71,6 +71,7 @@ namespace YeShunguang
             {
                 await TryAddReplays(item);
             }
+            VoiceManager.PlayMindVoice();
         }
 
         /// <summary>
@@ -197,6 +198,7 @@ namespace YeShunguang
             else if (power is EnlightenedMind && amount > 0)
             {
                 await TurnForceToEnergy(choiceContext);
+                await CardPileCmd.Draw(choiceContext, Owner.Player);
                 if (Owner.Player.PlayerCombatState.Energy <= 0 && Amount > 0)
                 {
                     await PowerOver();
